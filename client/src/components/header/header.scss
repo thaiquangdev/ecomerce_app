@@ -1,0 +1,126 @@
+.header-wrapper {
+  width: 1290px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+
+  .header-img {
+    img {
+      width: 121px;
+      height: 27px;
+      object-fit: cover;
+    }
+  }
+
+  .header-input {
+    width: 758px;
+    .search-form {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      .btn-search {
+        background: #f1f1f3;
+        border: none;
+        outline: none;
+        padding: 12px 2px 12px 12px;
+
+        ion-icon {
+          font-size: 20px;
+        }
+      }
+
+      input {
+        background: #f1f1f3;
+        border: none;
+        outline: none;
+        padding-right: 50px;
+        height: 47px;
+        width: 100%;
+        font-size: 16px;
+        &::placeholder {
+          font-size: 15px;
+        }
+      }
+
+      select {
+        background: #f1f1f3;
+        border: none;
+        border-left: 1px solid #d9d9e0;
+        outline: none;
+        padding-right: 50px;
+        height: 47px;
+        font-size: 15px;
+        font-weight: 300;
+      }
+    }
+  }
+
+  .header-button {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    ion-icon {
+      font-size: 20px;
+    }
+
+    .header-cart {
+      span {
+        font-size: 12px;
+        font-weight: 400;
+      }
+      ion-icon {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+// navbar
+.navbar-wrapper {
+  margin-top: 30px;
+  border-top: 1px solid #d9d9e0;
+  .navbar {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 1290px;
+    margin: 0 auto;
+    .dropdown-toggle {
+      width: 24%;
+      height: 56px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-right: 1px solid #d9d9e0;
+
+      a {
+        font-size: 17px;
+        font-weight: 400;
+        color: #000;
+      }
+
+      ion-icon {
+        font-size: 15px;
+        padding-right: 20px;
+      }
+    }
+    .list-menu {
+      width: 86%;
+      ul {
+        display: flex;
+        align-items: center;
+        gap: 35px;
+        padding-left: 30px;
+        li {
+          a {
+            color: #000;
+            font-size: 15px;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+  }
+}
