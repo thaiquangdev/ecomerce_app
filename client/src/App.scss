@@ -18,8 +18,86 @@ li {
   list-style: none;
 }
 
+.w-main {
+  width: 1290px;
+  margin: 0 auto;
+}
+
+.border-top {
+  border-top: 1px solid #d9d9e0;
+}
+
+.border-right {
+  border-right: 1px solid #d9d9e0;
+}
+
 .btn {
   border: none;
   outline: none;
   padding: 15px 15px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-12 {
+  width: 100%; /* Chiều rộng 100% cho col-12 */
+  flex: 0 0 100%;
+}
+
+.col-11 {
+  width: 91.66667%; /* Chiều rộng tương đương 11/12 cho col-11 */
+  flex: 0 0 91.66667%;
+}
+
+.col-10 {
+  width: 83.33333%; /* Chiều rộng tương đương 10/12 cho col-10 */
+  flex: 0 0 83.33333%;
+}
+
+.col-9 {
+  width: 75%; /* Chiều rộng tương đương 9/12 cho col-9 */
+  flex: 0 0 75%;
+}
+
+.col-8 {
+  width: 66.66667%; /* Chiều rộng tương đương 8/12 cho col-8 */
+  flex: 0 0 66.66667%;
+}
+
+.col-7 {
+  width: 58.33333%; /* Chiều rộng tương đương 7/12 cho col-7 */
+  flex: 0 0 58.33333%;
+}
+
+.col-6 {
+  width: 50%; /* Chiều rộng tương đương 6/12 cho col-6 */
+  flex: 0 0 50%;
+}
+
+.col-5 {
+  width: 41.66667%; /* Chiều rộng tương đương 5/12 cho col-5 */
+  flex: 0 0 41.66667%;
+}
+
+.col-4 {
+  width: 33.33333%; /* Chiều rộng tương đương 4/12 cho col-4 */
+  flex: 0 0 33.33333%;
+}
+
+.col-3 {
+  width: 25%; /* Chiều rộng tương đương 3/12 cho col-3 */
+  flex: 0 0 25%;
+}
+
+.col-2 {
+  width: 16.66667%; /* Chiều rộng tương đương 2/12 cho col-2 */
+  flex: 0 0 16.66667%;
+}
+
+.col-1 {
+  width: 8.33333%; /* Chiều rộng tương đương 1/12 cho col-1 */
+  flex: 0 0 8.33333%;
 }

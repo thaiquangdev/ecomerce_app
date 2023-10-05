@@ -38,12 +38,12 @@ const Header = () => {
       {/* Navbar */}
 
       <div className="navbar-wrapper">
-        <div className="navbar">
-          <div className="dropdown-toggle">
+        <div className="navbar row">
+          <div className="dropdown-toggle col-3">
             <Link to="#">All Categories</Link>
             <ion-icon name="chevron-down-outline"></ion-icon>
           </div>
-          <div className="list-menu">
+          <div className="list-menu col-9">
             <ul>
               {navbar.map((item, index) => {
                 return (
