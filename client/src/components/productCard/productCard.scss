@@ -1,0 +1,36 @@
+.card {
+  padding: 0 15px;
+  .card-img {
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  .card-content {
+    p {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      ion-icon {
+        color: var(--color-warning);
+      }
+      font-size: 0.875rem;
+      font-weight: 500;
+    }
+
+    h3 {
+      padding-top: 8px;
+      font-size: 1rem;
+      font-weight: 500;
+    }
+
+    span {
+      del {
+        font-size: 94%;
+        font-weight: 400;
+        opacity: 0.3;
+      }
+    }
+  }
+}

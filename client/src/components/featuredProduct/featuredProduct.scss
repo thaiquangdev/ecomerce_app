@@ -1,0 +1,134 @@
+.featuredProduct {
+  margin-top: 40px;
+  .header {
+    .row {
+      .col-12 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        h2 {
+          font-size: 1.875rem;
+          font-weight: 500;
+        }
+
+        span {
+          opacity: 0.6;
+          padding-right: 40px;
+        }
+      }
+    }
+  }
+  .content {
+    margin-left: -15px;
+    margin-right: -15px;
+    .row {
+      width: 100%;
+      .col-3 {
+        width: 100%;
+      }
+      .swiper {
+        .swiper-button-prev {
+          display: none;
+          border-radius: 2px;
+          background-color: #fff;
+          width: 2rem;
+          height: 3.5rem;
+          top: 38%;
+          left: 0;
+
+          &::after {
+            font-weight: 500;
+            font-size: 1.4375rem !important;
+            line-height: 35.5px;
+            color: #000;
+          }
+        }
+
+        .swiper-button-next {
+          display: none;
+          border-radius: 2px;
+          background-color: #fff;
+          width: 2rem;
+          height: 3.5rem;
+
+          top: 38%;
+          right: 0;
+          &::after {
+            font-weight: 500;
+            font-size: 1.4375rem !important;
+            line-height: 35.5px;
+            color: #000;
+          }
+        }
+
+        &:hover {
+          .swiper-button-next {
+            display: flex;
+          }
+
+          .swiper-button-prev {
+            display: flex;
+          }
+        }
+      }
+    }
+  }
+  .featured-banner {
+    .row {
+      .col-6 {
+        &:first-child {
+          padding-right: 15px;
+        }
+        &:last-child {
+          padding-left: 15px;
+        }
+
+        .banner-inner {
+          position: relative;
+          .banner-image {
+            img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+          .banner-content {
+            position: absolute;
+            top: 15%;
+            left: 7%;
+
+            h4 {
+              font-size: 0.75rem;
+              font-weight: 600;
+              letter-spacing: 1px;
+              margin-bottom: 0.625rem;
+            }
+
+            h2 {
+              font-size: 2.125rem;
+              margin-bottom: 0.9375rem;
+              font-weight: 500;
+            }
+
+            p {
+              font-size: 1rem;
+              margin-bottom: 2.25rem;
+              opacity: 0.6;
+            }
+
+            a {
+              padding: 0;
+              display: flex;
+              align-items: center;
+              gap: 8px;
+              font-size: 1rem;
+              background-color: transparent;
+              color: #000;
+              font-weight: 500;
+            }
+          }
+        }
+      }
+    }
+  }
+}

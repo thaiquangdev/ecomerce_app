@@ -1,0 +1,140 @@
+.bestSeller {
+  .product {
+    .product-header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      h2 {
+        font-size: 1.875rem;
+        font-weight: 500;
+      }
+
+      p {
+        font-size: 1.0625rem;
+        font-weight: 300;
+        color: var(--color-text-des);
+      }
+    }
+
+    .product-content {
+      margin-top: 40px;
+      display: flex;
+      margin-left: -15px;
+      margin-right: -15px;
+      .row {
+        width: 100%;
+        .col-3 {
+          width: 100%;
+        }
+
+        .swiper {
+          .swiper-button-prev {
+            display: none;
+            border-radius: 2px;
+            background-color: #fff;
+            width: 2rem;
+            height: 3.5rem;
+            top: 38%;
+            left: 0;
+
+            &::after {
+              font-weight: 500;
+              font-size: 1.4375rem !important;
+              line-height: 35.5px;
+              color: #000;
+            }
+          }
+
+          .swiper-button-next {
+            display: none;
+            border-radius: 2px;
+            background-color: #fff;
+            width: 2rem;
+            height: 3.5rem;
+            top: 38%;
+            right: 0;
+            &::after {
+              font-weight: 500;
+              font-size: 1.4375rem !important;
+              line-height: 35.5px;
+              color: #000;
+            }
+          }
+
+          &:hover {
+            .swiper-button-next {
+              display: flex;
+            }
+
+            .swiper-button-prev {
+              display: flex;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .countdown {
+    position: relative;
+    .countdown-image {
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .countdown-content {
+      position: absolute;
+      top: 18%;
+      right: 3%;
+      h4 {
+        font-size: 0.75rem;
+        font-weight: 600;
+        letter-spacing: 1px;
+        margin-bottom: 1.25rem;
+      }
+
+      h2 {
+        font-size: 2.875rem;
+        font-weight: 300;
+        margin-bottom: 1.25rem;
+      }
+
+      p {
+        opacity: 0.6;
+        margin-bottom: 1rem;
+      }
+
+      .countdown-time {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        .countdown-item {
+          display: flex;
+          align-items: flex-end;
+          font-size: 2.125rem;
+          font-weight: 300;
+
+          .count-label {
+            font-size: 55%;
+            margin-left: 4px;
+          }
+        }
+      }
+      .countdown-btn {
+        margin-top: 2rem;
+        .btn {
+          padding: 1rem 1.875rem;
+          color: var(--color-text);
+          font-size: 1rem;
+          font-weight: 500;
+          height: 3rem;
+          background-color: #fff;
+        }
+      }
+    }
+  }
+}

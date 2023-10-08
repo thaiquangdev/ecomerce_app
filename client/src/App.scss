@@ -1,5 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
+:root {
+  --color-background: #fff;
+  --color-background-line: #fafafa;
+  --color-text: #000;
+  --color-text-des: #75767c;
+  --color-primary: #ee403d;
+  --color-success: #47d486;
+  --color-success: #47b486;
+  --color-success-dark: #287c58;
+  --color-success-light: #c9e3d8;
+  --color-warning: #f5af28;
+  --color-warning-light: #f4e3d1;
+  --color-danger: #f4344f;
+  --color-info: #aeb9be;
+  --color-border: #dee0ea;
+  --color-form-border: #ddd;
+  --color-form-active: #8f8f8f;
+  --color-form-placeholder: #75767c;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -29,6 +49,10 @@ li {
 
 .border-right {
   border-right: 1px solid #d9d9e0;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #d9d9e0;
 }
 
 .btn {

@@ -1,0 +1,58 @@
+.widget {
+  margin-top: 25px;
+  .row {
+    .col-6 {
+      &:first-child {
+        padding-right: 15px;
+      }
+
+      &:last-child {
+        padding-left: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-bottom: 4px;
+      }
+      .banner-inner {
+        position: relative;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+        .banner-content {
+          position: absolute;
+          top: 10%;
+          left: 10%;
+          h4 {
+            font-size: 0.75rem;
+            font-weight: 600;
+            letter-spacing: 1px;
+            margin-bottom: 0.625rem;
+          }
+
+          h2 {
+            font-size: 36px;
+            margin-bottom: 0.9375rem;
+          }
+
+          p {
+            font-size: 1rem;
+            margin-bottom: 2.25rem;
+            opacity: 0.6;
+          }
+
+          a {
+            padding: 0;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 1rem;
+            background-color: transparent;
+            color: #000;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+  }
+}

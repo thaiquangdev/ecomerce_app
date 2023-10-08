@@ -115,3 +115,59 @@ export const sliderBanner = [
     image: "/slider-03.jpg",
   },
 ];
+
+export const widget = [
+  {
+    subTitle: "NEW SEASON",
+    entryTitle: (
+      <>
+        Big patterns are <br /> back in fashion
+      </>
+    ),
+    des: (
+      <>
+        Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit, sed do
+        eiusmod.
+      </>
+    ),
+    link: (
+      <>
+        Shop Now <ion-icon name="arrow-forward-outline"></ion-icon>
+      </>
+    ),
+    path: "#",
+    image: "/banner-01.jpg",
+  },
+  {
+    subTitle: "NEW SEASON",
+    entryTitle: (
+      <>
+        Tha latest men's <br /> trends this season
+      </>
+    ),
+    des: <>Don't miss the opportunity.</>,
+    link: (
+      <>
+        Shop Now <ion-icon name="arrow-forward-outline"></ion-icon>
+      </>
+    ),
+    path: "#",
+    image: "/banner-02.jpg",
+  },
+  {
+    subTitle: "NEW SEASON",
+    entryTitle: (
+      <>
+        Show your fashion <br /> with summer shoes
+      </>
+    ),
+    des: <>Don't miss the opportunity.</>,
+    link: (
+      <>
+        Shop Now <ion-icon name="arrow-forward-outline"></ion-icon>
+      </>
+    ),
+    path: "#",
+    image: "/banner-03.jpg",
+  },
+];
