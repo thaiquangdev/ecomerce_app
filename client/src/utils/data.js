@@ -171,3 +171,27 @@ export const widget = [
     image: "/banner-03.jpg",
   },
 ];
+<<<<<<< HEAD
+=======
+
+export const trademark = [
+  {
+    image: "/logo-1.png",
+  },
+  {
+    image: "/logo-2.png",
+  },
+  {
+    image: "/logo-3.png",
+  },
+  {
+    image: "/logo-4.png",
+  },
+  {
+    image: "/logo-5.png",
+  },
+  {
+    image: "/logo-8.png",
+  },
+];
+>>>>>>> 8337bc5 (coding)

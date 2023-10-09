@@ -5,6 +5,11 @@ import "./home.scss";
 import Widget from "../../components/widget/Widget";
 import BestSeller from "../../components/bestSeller/BestSeller";
 import FeaturedProduct from "../../components/featuredProduct/FeaturedProduct";
+<<<<<<< HEAD
+=======
+import BuyersReviews from "../../components/buyersReviews/BuyersReviews";
+import LaterNews from "../../components/laterNews/LaterNews";
+>>>>>>> 8337bc5 (coding)
 
 const Home = () => {
   return (
@@ -28,6 +33,15 @@ const Home = () => {
       <div className="w-main">
         <FeaturedProduct />
       </div>
+<<<<<<< HEAD
+=======
+      <div className="w-main">
+        <BuyersReviews />
+      </div>
+      <div className="w-main">
+        <LaterNews />
+      </div>
+>>>>>>> 8337bc5 (coding)
     </div>
   );
 };
