@@ -8,7 +8,7 @@ import FeaturedProduct from "../../components/featuredProduct/FeaturedProduct";
 
 const Home = () => {
   return (
-    <div className="border-top ">
+    <div className="home">
       <div className="w-main">
         <div className="row">
           <div className="col-3 border-right">

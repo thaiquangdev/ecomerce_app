@@ -1,0 +1,69 @@
+.register {
+  margin: 5.5rem auto;
+
+  border: 1px solid var(--color-form-border);
+  width: 530px;
+  .row {
+    .col-12 {
+      form {
+        padding: 60px;
+        h2 {
+          font-size: 1.065rem;
+          font-weight: 600;
+          text-transform: uppercase;
+          text-align: center;
+          margin-bottom: 40px;
+        }
+
+        div {
+          label {
+            font-size: 0.875rem;
+            margin-bottom: 5px;
+          }
+
+          .input {
+            width: 100%;
+            border: 1px solid var(--color-form-border);
+            font-size: 15px;
+            line-height: inherit;
+            padding: 0.5rem 0.935rem;
+            border-radius: 2px;
+            margin-bottom: 20px;
+          }
+        }
+
+        .policy {
+          span {
+            font-size: 0.8125rem;
+            line-height: 1.6;
+            font-weight: 400;
+            letter-spacing: -0.03px;
+            a {
+              color: var(--color-primary);
+            }
+          }
+          margin-bottom: 1rem;
+        }
+
+        .btn {
+          width: 100%;
+          background-color: var(--color-primary);
+          color: var(--color-background);
+          font-weight: 600;
+          font-size: 13px;
+          margin-bottom: 20px;
+        }
+        .link {
+          display: flex;
+          justify-content: flex-end;
+
+          a {
+            color: var(--color-text);
+            text-decoration: underline;
+            font-size: 0.875rem;
+          }
+        }
+      }
+    }
+  }
+}
