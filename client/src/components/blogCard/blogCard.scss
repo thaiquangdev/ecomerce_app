@@ -1,0 +1,56 @@
+.blogCard {
+  .blog-image {
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  .blog-content {
+    .blog-header {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      .blog-category {
+        a {
+          font-size: 0.75rem;
+          font-weight: 600;
+          text-transform: uppercase;
+          letter-spacing: 1px;
+          color: var(--color-form-active);
+        }
+      }
+      .blog-date {
+        position: relative;
+        &::before {
+          position: absolute;
+          top: 12px;
+          left: -22px;
+          content: "";
+          width: 0.875rem;
+          height: 1px;
+          background-color: var(--color-form-active);
+          margin: 0 5px;
+        }
+        a {
+          font-size: 0.75rem;
+          color: var(--color-form-active);
+        }
+      }
+    }
+    .blog-body {
+      .blog-title {
+        a {
+          font-size: 1.375rem;
+          font-weight: 500;
+          color: var(--color-text);
+        }
+      }
+    }
+    .blog-des {
+      font-size: 0.875rem;
+      font-weight: 400;
+      opacity: 0.4;
+    }
+  }
+}

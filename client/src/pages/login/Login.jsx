@@ -1,16 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import CustomInput from "../../components/customInput/CustomInput";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "./login.scss";
-<<<<<<< HEAD
-
-const Login = () => {
-=======
 import { useFormik } from "formik";
 import * as Yup from "yup";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { login } from "../../features/user/userSlice";
-
 let userSchema = Yup.object({
   email: Yup.string().nullable().email().required("Email is not valid!"),
   password: Yup.string().required("Password is not valid!"),
@@ -18,7 +13,7 @@ let userSchema = Yup.object({
 
 const Login = () => {
   const dispatch = useDispatch();
-
+  const navigate = useNavigate();
   const formik = useFormik({
     initialValues: {
       email: "",
@@ -30,16 +25,18 @@ const Login = () => {
     },
   });
 
->>>>>>> 8337bc5 (coding)
+  const { userData } = useSelector((state) => state.auth.user);
+  useEffect(() => {
+    if (userData) {
+      navigate("/");
+    }
+  }, [userData]);
+
   return (
     <div className="login">
       <div className="row">
         <div className="col-12">
-<<<<<<< HEAD
-          <form action="">
-=======
           <form onSubmit={formik.handleSubmit}>
->>>>>>> 8337bc5 (coding)
             <h2>Login</h2>
             <div>
               <label htmlFor="email">Email address *</label>
@@ -48,9 +45,6 @@ const Login = () => {
                 id="email"
                 name="email"
                 classN="input"
-<<<<<<< HEAD
-              />
-=======
                 onCh={formik.handleChange("email")}
                 onBl={formik.handleBlur("email")}
                 val={formik.values.email}
@@ -58,7 +52,6 @@ const Login = () => {
               <div className="error">
                 {formik.touched.email && formik.errors.email}
               </div>
->>>>>>> 8337bc5 (coding)
             </div>
             <div>
               <label htmlFor="password">Password *</label>
@@ -67,9 +60,6 @@ const Login = () => {
                 id="password"
                 name="password"
                 classN="input"
-<<<<<<< HEAD
-              />
-=======
                 onCh={formik.handleChange("password")}
                 onBl={formik.handleBlur("password")}
                 val={formik.values.password}
@@ -77,7 +67,6 @@ const Login = () => {
               <div className="error">
                 {formik.touched.password && formik.errors.password}
               </div>
->>>>>>> 8337bc5 (coding)
             </div>
             <button type="submit" className="btn">
               Login

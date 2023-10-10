@@ -1,24 +1,25 @@
 import React from "react";
 import "./blogCard.scss";
+import { Link } from "react-router-dom";
 
 const BlogCard = () => {
   return (
     <div className="blogCard">
-      <div blog-image>
+      <div className="blog-image">
         <img src="/blog-4.jpeg" alt="" />
       </div>
       <div className="blog-content">
         <div className="blog-header">
           <div className="blog-category">
-            <a href="#">Collection</a>
+            <Link to="#">Collection</Link>
           </div>
           <div className="blog-date">
-            <a href="#">25 Apr 2022</a>
+            <Link to="#">25 Apr 2022</Link>
           </div>
         </div>
         <div className="blog-body">
           <h3 className="blog-title">
-            <a href="#">The Best Products That Shape Fashion</a>
+            <Link to="#">The Best Products That Shape Fashion</Link>
           </h3>
         </div>
         <div className="blog-des">

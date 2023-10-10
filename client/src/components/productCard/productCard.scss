@@ -1,5 +1,15 @@
 .card {
   padding: 0 15px;
+  position: relative;
+  overflow: hidden;
+  &:hover {
+    .product-button {
+      ul {
+        right: 25px;
+        transition: 0.3s;
+      }
+    }
+  }
   .card-img {
     img {
       width: 100%;
@@ -30,6 +40,43 @@
         font-size: 94%;
         font-weight: 400;
         opacity: 0.3;
+      }
+    }
+  }
+
+  .product-button {
+    ul {
+      position: absolute;
+      top: 8px;
+      right: -10px;
+      transition: 0.3s;
+      li {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 35px;
+        width: 35px;
+        border-radius: 50%;
+        background-color: var(--color-background);
+        margin-bottom: 10px;
+        &:hover {
+          background-color: var(--color-primary);
+          a {
+            ion-icon {
+              color: var(--color-background);
+            }
+          }
+        }
+        a {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          ion-icon {
+            font-size: 1.2rem;
+            color: var(--color-text);
+          }
+        }
       }
     }
   }

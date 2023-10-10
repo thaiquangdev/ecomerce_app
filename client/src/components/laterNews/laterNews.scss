@@ -1,0 +1,28 @@
+.laterNews {
+  .row {
+    .col-12 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      h3 {
+        font-size: 1.875rem;
+        font-weight: 500;
+      }
+      p {
+        font-size: 1.025rem;
+        font-weight: 300;
+        color: var(--color-text-des);
+        text-align: center;
+        margin-bottom: 20px;
+      }
+    }
+    display: flex;
+    align-items: center;
+    margin-left: -4px;
+    margin-right: -4px;
+
+    div {
+      padding: 0 4px;
+    }
+  }
+}

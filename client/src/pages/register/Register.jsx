@@ -2,10 +2,6 @@ import React from "react";
 import CustomInput from "../../components/customInput/CustomInput";
 import { Link } from "react-router-dom";
 import "./register.scss";
-<<<<<<< HEAD
-
-const Register = () => {
-=======
 import { useFormik } from "formik";
 import * as Yup from "yup";
 import { useDispatch } from "react-redux";
@@ -36,16 +32,11 @@ const Register = () => {
     },
   });
 
->>>>>>> 8337bc5 (coding)
   return (
     <div className="register">
       <div className="row">
         <div className="col-12">
-<<<<<<< HEAD
-          <form action="">
-=======
           <form onSubmit={formik.handleSubmit}>
->>>>>>> 8337bc5 (coding)
             <h2>Register</h2>
             <div>
               <label htmlFor="firstname">Firstname *</label>
@@ -54,9 +45,6 @@ const Register = () => {
                 id="firstname"
                 name="firstname"
                 classN="input"
-<<<<<<< HEAD
-              />
-=======
                 onCh={formik.handleChange("firstname")}
                 onBl={formik.handleBlur("firstname")}
                 val={formik.values.firstname}
@@ -64,7 +52,6 @@ const Register = () => {
               <div className="error">
                 {formik.touched.firstname && formik.errors.firstname}
               </div>
->>>>>>> 8337bc5 (coding)
             </div>
             <div>
               <label htmlFor="lastname">Lastname *</label>
@@ -73,9 +60,6 @@ const Register = () => {
                 id="lastname"
                 name="lastname"
                 classN="input"
-<<<<<<< HEAD
-              />
-=======
                 onCh={formik.handleChange("lastname")}
                 onBl={formik.handleBlur("lastname")}
                 val={formik.values.lastname}
@@ -83,7 +67,6 @@ const Register = () => {
               <div className="error">
                 {formik.touched.lastname && formik.errors.lastname}
               </div>
->>>>>>> 8337bc5 (coding)
             </div>
             <div>
               <label htmlFor="email">Email *</label>
@@ -92,9 +75,6 @@ const Register = () => {
                 id="email"
                 name="email"
                 classN="input"
-<<<<<<< HEAD
-              />
-=======
                 onCh={formik.handleChange("email")}
                 onBl={formik.handleBlur("email")}
                 val={formik.values.email}
@@ -102,7 +82,6 @@ const Register = () => {
               <div className="error">
                 {formik.touched.email && formik.errors.email}
               </div>
->>>>>>> 8337bc5 (coding)
             </div>
             <div>
               <label htmlFor="mobile">Mobile *</label>
@@ -111,9 +90,6 @@ const Register = () => {
                 id="mobile"
                 name="mobile"
                 classN="input"
-<<<<<<< HEAD
-              />
-=======
                 onCh={formik.handleChange("mobile")}
                 onBl={formik.handleBlur("mobile")}
                 val={formik.values.mobile}
@@ -121,7 +97,6 @@ const Register = () => {
               <div className="error">
                 {formik.touched.mobile && formik.errors.mobile}
               </div>
->>>>>>> 8337bc5 (coding)
             </div>
             <div>
               <label htmlFor="password">Password *</label>
@@ -130,9 +105,6 @@ const Register = () => {
                 id="password"
                 name="password"
                 classN="input"
-<<<<<<< HEAD
-              />
-=======
                 onCh={formik.handleChange("password")}
                 onBl={formik.handleBlur("password")}
                 val={formik.values.password}
@@ -140,7 +112,6 @@ const Register = () => {
               <div className="error">
                 {formik.touched.password && formik.errors.password}
               </div>
->>>>>>> 8337bc5 (coding)
             </div>
             <div className="policy">
               <span>
@@ -154,11 +125,9 @@ const Register = () => {
               Register
             </button>
             <div className="link">
-<<<<<<< HEAD
               <Link to="/register">I have account. Login!</Link>
-=======
+
               <Link to="/login">I have account. Login!</Link>
->>>>>>> 8337bc5 (coding)
             </div>
           </form>
         </div>
