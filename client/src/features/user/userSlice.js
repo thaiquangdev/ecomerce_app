@@ -71,12 +71,7 @@ export const authSlice = createSlice({
         state.isError = false;
         state.isSuccess = true;
         state.user = action.payload;
-        if (state.isSuccess === true) {
-          Swal.fire({
-            icon: "success",
-            title: "Login successfully",
-          });
-        } else {
+        if (state.isError === true) {
           Swal.fire({
             icon: "error",
             title: "Oops...",

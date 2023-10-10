@@ -4,10 +4,8 @@
   overflow: hidden;
   &:hover {
     .product-button {
-      ul {
-        right: 25px;
-        transition: 0.3s;
-      }
+      right: 25px;
+      transition: 0.3s;
     }
   }
   .card-img {
@@ -45,18 +43,18 @@
   }
 
   .product-button {
+    position: absolute;
+    top: 8px;
+    right: -30px;
+    transition: right 0.3s ease-in-out;
     ul {
-      position: absolute;
-      top: 8px;
-      right: -10px;
-      transition: 0.3s;
       li {
         cursor: pointer;
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 35px;
-        width: 35px;
+        height: 34px;
+        width: 34px;
         border-radius: 50%;
         background-color: var(--color-background);
         margin-bottom: 10px;
