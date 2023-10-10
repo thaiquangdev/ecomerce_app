@@ -6,7 +6,8 @@ const ProductCard = () => {
   return (
     <div className="card">
       <div className="card-img">
-        <img src="/pants1.jpeg" alt="" />
+        <img src="/pants1.jpeg" alt="" className="img-product" />
+        <img src="/pants2.jpeg" alt="" className="img-product-hover" />
       </div>
       <div className="card-content">
         <p>
