@@ -6,6 +6,7 @@ import Register from "./pages/register/Register";
 import Layout from "./components/layout/Layout";
 import Shop from "./pages/shop/Shop";
 import Blog from "./pages/blog/Blog";
+import Contact from "./pages/contact/Contact";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/register" element={<Register />} />
           <Route path="/shop" element={<Shop />} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="/contact" element={<Contact />} />
         </Route>
       </Routes>
     </BrowserRouter>
