@@ -7,9 +7,11 @@
     }
   }
   .contact-content {
-    margin-top: 2.5rem;
+    margin-top: 3rem;
+
     .row {
       .col-8 {
+        padding-right: 20px;
         .contact-form {
           .header {
             h4 {
@@ -89,9 +91,49 @@
                   outline: none;
                 }
               }
+              .btn {
+                margin: 2rem 0;
+                border: 1px solid var(--color-form-border);
+                color: 1.2rem;
+                font-weight: 600;
+              }
             }
           }
         }
+      }
+      .col-4 {
+        padding-left: 20px;
+        .contact-store {
+          .store-header {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            ion-icon {
+              font-size: 2rem;
+            }
+            h4 {
+              font-size: 1rem;
+              font-weight: 500;
+            }
+          }
+          .store-content {
+            padding: 20px 0 0 20px;
+            p {
+              padding-bottom: 15px;
+              font-size: 0.875rem;
+              a {
+                color: var(--color-primary);
+              }
+            }
+          }
+        }
+      }
+    }
+    .contact-des {
+      margin-top: 1rem;
+      margin-bottom: 3rem;
+      p {
+        font-size: 1rem;
       }
     }
   }
