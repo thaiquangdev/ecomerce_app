@@ -1,13 +1,18 @@
 import React from "react";
 import "./featuredProduct.scss";
 import ProductCard from "../productCard/ProductCard";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper/modules";
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/autoplay";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import { Link } from "react-router-dom";
+
+const settings = {
+  dots: true,
+  infinite: true,
+  speed: 500,
+  slidesToShow: 4,
+  slidesToScroll: 4,
+};
 
 const FeaturedProduct = () => {
   return (
@@ -27,49 +32,26 @@ const FeaturedProduct = () => {
       </div>
       <div className="content">
         <div className="row">
-          <Swiper
-            cssMode={true}
-            navigation={true}
-            pagination={{ clickable: true }}
-            mousewheel={true}
-            keyboard={true}
-            scrollbar={{ draggable: true }}
-            slidesPerView={4}
-            loop={true}
-            modules={[Navigation, Pagination, Mousewheel, Keyboard]}
-            className="mySwiper"
-          >
-            <SwiperSlide>
-              <div className="col-3">
-                <ProductCard />
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="col-3">
-                <ProductCard />
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="col-3">
-                <ProductCard />
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="col-3">
-                <ProductCard />
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="col-3">
-                <ProductCard />
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="col-3">
-                <ProductCard />
-              </div>
-            </SwiperSlide>
-          </Swiper>
+          <Slider {...settings}>
+            <div className="col-3">
+              <ProductCard />
+            </div>
+            <div className="col-3">
+              <ProductCard />
+            </div>
+            <div className="col-3">
+              <ProductCard />
+            </div>
+            <div className="col-3">
+              <ProductCard />
+            </div>
+            <div className="col-3">
+              <ProductCard />
+            </div>
+            <div className="col-3">
+              <ProductCard />
+            </div>
+          </Slider>
         </div>
       </div>
       <div className="featured-banner">

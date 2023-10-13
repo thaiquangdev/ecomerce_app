@@ -81,7 +81,7 @@ export const sliderBanner = [
         Shop Collection <ion-icon name="arrow-forward-outline"></ion-icon>
       </>
     ),
-    path: "#",
+    path: "/shop",
     image: "/slider-01.jpg",
   },
   {
@@ -96,7 +96,7 @@ export const sliderBanner = [
         Shop Collection <ion-icon name="arrow-forward-outline"></ion-icon>
       </>
     ),
-    path: "#",
+    path: "/shop",
     image: "/slider-02.jpg",
   },
   {
@@ -111,7 +111,7 @@ export const sliderBanner = [
         Shop Collection <ion-icon name="arrow-forward-outline"></ion-icon>
       </>
     ),
-    path: "#",
+    path: "/shop",
     image: "/slider-03.jpg",
   },
 ];

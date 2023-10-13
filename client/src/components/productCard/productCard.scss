@@ -16,81 +16,84 @@
       transition: 0.3s;
     }
   }
-  .card-img {
-    position: relative;
-    .img-product {
-      width: 100%;
-      height: 100%;
-      object-fit: contain;
-    }
-
-    .img-product-hover {
-      display: none;
-      width: 100%;
-      height: 100%;
-      object-fit: contain;
-
-      transition: display 0.3s;
-    }
-  }
-  .card-content {
-    p {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      ion-icon {
-        color: var(--color-warning);
+  a {
+    color: var(--color-text);
+    .card-img {
+      position: relative;
+      .img-product {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
       }
-      font-size: 0.875rem;
-      font-weight: 500;
-    }
 
-    h3 {
-      padding-top: 8px;
-      font-size: 1rem;
-      font-weight: 500;
-    }
+      .img-product-hover {
+        display: none;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
 
-    span {
-      del {
-        font-size: 94%;
-        font-weight: 400;
-        opacity: 0.3;
+        transition: display 0.3s;
       }
     }
-  }
-
-  .product-button {
-    position: absolute;
-    top: 8px;
-    right: -30px;
-    transition: right 0.3s ease-in-out;
-    ul {
-      li {
-        cursor: pointer;
+    .card-content {
+      p {
         display: flex;
         align-items: center;
-        justify-content: center;
-        height: 34px;
-        width: 34px;
-        border-radius: 50%;
-        background-color: var(--color-background);
-        margin-bottom: 10px;
-        &:hover {
-          background-color: var(--color-primary);
-          a {
-            ion-icon {
-              color: var(--color-background);
-            }
-          }
+        gap: 10px;
+        ion-icon {
+          color: var(--color-warning);
         }
-        a {
+        font-size: 0.875rem;
+        font-weight: 500;
+      }
+
+      h3 {
+        padding-top: 8px;
+        font-size: 1rem;
+        font-weight: 500;
+      }
+
+      span {
+        del {
+          font-size: 94%;
+          font-weight: 400;
+          opacity: 0.3;
+        }
+      }
+    }
+
+    .product-button {
+      position: absolute;
+      top: 8px;
+      right: -30px;
+      transition: right 0.3s ease-in-out;
+      ul {
+        li {
+          cursor: pointer;
           display: flex;
           align-items: center;
           justify-content: center;
-          ion-icon {
-            font-size: 1.2rem;
-            color: var(--color-text);
+          height: 34px;
+          width: 34px;
+          border-radius: 50%;
+          background-color: var(--color-background);
+          margin-bottom: 10px;
+          &:hover {
+            background-color: var(--color-primary);
+            a {
+              ion-icon {
+                color: var(--color-background);
+              }
+            }
+          }
+          a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            ion-icon {
+              font-size: 1.2rem;
+              color: var(--color-text);
+            }
           }
         }
       }

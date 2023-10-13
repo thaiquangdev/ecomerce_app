@@ -1,0 +1,23 @@
+.singleProduct {
+  margin-top: 3rem;
+  .row {
+    .col-9 {
+      display: flex;
+      margin-left: -15px;
+      margin-right: -15px;
+      .product-image {
+        padding: 0 15px;
+        .image {
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+      }
+      .product-content {
+        padding: 0 15px;
+      }
+    }
+  }
+}

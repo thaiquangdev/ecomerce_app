@@ -25,53 +25,8 @@
       margin-right: -15px;
       .row {
         width: 100%;
-        .col-3 {
+        .slick-slider {
           width: 100%;
-        }
-
-        .swiper {
-          .swiper-button-prev {
-            display: none;
-            border-radius: 2px;
-            background-color: #fff;
-            width: 2rem;
-            height: 3.5rem;
-            top: 38%;
-            left: 0;
-
-            &::after {
-              font-weight: 500;
-              font-size: 1.4375rem !important;
-              line-height: 35.5px;
-              color: #000;
-            }
-          }
-
-          .swiper-button-next {
-            display: none;
-            border-radius: 2px;
-            background-color: #fff;
-            width: 2rem;
-            height: 3.5rem;
-            top: 38%;
-            right: 0;
-            &::after {
-              font-weight: 500;
-              font-size: 1.4375rem !important;
-              line-height: 35.5px;
-              color: #000;
-            }
-          }
-
-          &:hover {
-            .swiper-button-next {
-              display: flex;
-            }
-
-            .swiper-button-prev {
-              display: flex;
-            }
-          }
         }
       }
     }

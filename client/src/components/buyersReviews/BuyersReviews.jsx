@@ -1,17 +1,15 @@
 import React from "react";
 import "./buyersReviews.scss";
-import { Swiper, SwiperSlide } from "swiper/react";
-import {
-  Navigation,
-  Pagination,
-  Mousewheel,
-  Keyboard,
-  Autoplay,
-} from "swiper/modules";
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/autoplay";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+const settings = {
+  dots: true,
+  infinite: true,
+  speed: 500,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+};
 
 const BuyersReviews = () => {
   return (
@@ -27,114 +25,50 @@ const BuyersReviews = () => {
           </p>
         </div>
 
-        <Swiper
-          cssMode={true}
-          navigation={true}
-          pagination={true}
-          mousewheel={true}
-          keyboard={true}
-          autoplay={{ delay: 5000 }}
-          loop={true}
-          modules={[Navigation, Pagination, Mousewheel, Keyboard, Autoplay]}
-          className="mySwiper"
-        >
-          <SwiperSlide>
-            <div className="col-4">
-              <div className="star">
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-              </div>
-              <div className="comment">
-                Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                maecenas accumsan facilisis.
-              </div>
-              <div className="author">Scarlett Edwards</div>
+        <Slider {...settings}>
+          <div className="col-4">
+            <div className="star">
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
             </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="col-4">
-              <div className="star">
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-              </div>
-              <div className="comment">
-                Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                maecenas accumsan facilisis.
-              </div>
-              <div className="author">Scarlett Edwards</div>
+            <div className="comment">
+              Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
+              maecenas accumsan facilisis.
             </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="col-4">
-              <div className="star">
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-              </div>
-              <div className="comment">
-                Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                maecenas accumsan facilisis.
-              </div>
-              <div className="author">Scarlett Edwards</div>
+            <div className="author">Scarlett Edwards</div>
+          </div>
+          <div className="col-4">
+            <div className="star">
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
             </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="col-4">
-              <div className="star">
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-              </div>
-              <div className="comment">
-                Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                maecenas accumsan facilisis.
-              </div>
-              <div className="author">Scarlett Edwards</div>
+            <div className="comment">
+              Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
+              maecenas accumsan facilisis.
             </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="col-4">
-              <div className="star">
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-              </div>
-              <div className="comment">
-                Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                maecenas accumsan facilisis.
-              </div>
-              <div className="author">Scarlett Edwards</div>
+            <div className="author">Scarlett Edwards</div>
+          </div>
+          <div className="col-4">
+            <div className="star">
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
             </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="col-4">
-              <div className="star">
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-              </div>
-              <div className="comment">
-                Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                maecenas accumsan facilisis.
-              </div>
-              <div className="author">Scarlett Edwards</div>
+            <div className="comment">
+              Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
+              maecenas accumsan facilisis.
             </div>
-          </SwiperSlide>
-        </Swiper>
+            <div className="author">Scarlett Edwards</div>
+          </div>
+        </Slider>
       </div>
     </div>
   );
