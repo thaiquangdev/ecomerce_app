@@ -2,21 +2,27 @@ import React from "react";
 import "./productCard.scss";
 import { Link } from "react-router-dom";
 
-const ProductCard = () => {
+const ProductCard = (props) => {
+  const { productData } = props;
   return (
     <div className="card">
       <Link to="/product/:id">
         <div className="card-img">
-          <img src="/pants1.jpeg" alt="" className="img-product" />
-          <img src="/pants2.jpeg" alt="" className="img-product-hover" />
+          <img src={productData?.images[0]} alt="" className="img-product" />
+          <img
+            src={productData?.images[1]}
+            alt=""
+            className="img-product-hover"
+          />
         </div>
         <div className="card-content">
           <p>
-            <ion-icon name="star"></ion-icon> 2 reviews
+            <ion-icon name="star"></ion-icon> {productData?.ratings.length}{" "}
+            reviews
           </p>
-          <h3>Basic Colored Sweatpants With Elastic Hems</h3>
+          <h3>{productData?.title}</h3>
           <span>
-            <del>$25.90</del> $19.90
+            {/* <del>$25.90</del> $19.90 */}${productData?.price}
           </span>
         </div>
         <div className="product-button">

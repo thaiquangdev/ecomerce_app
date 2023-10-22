@@ -8,15 +8,17 @@ const prodCategory = require("../models/productCategory");
 const fn = async (product) => {
   await Product.create({
     title: product?.productName,
-    slug: slugify(product?.productName),
+    slug: slugify(product?.productName) + Math.round(Math.random() * 100) + "",
     description: product?.description,
     sku: product?.sku,
     price: parseFloat(product?.price?.replace("$", "")),
     category: product?.categories,
+    sizes: product?.sizes,
     quantity: Math.round(Math.random() * 1000),
     sold: Math.round(Math.random() * 100),
     images: product?.images,
     colors: product?.colors,
+    ratings: product?.reviews,
   });
 };
 

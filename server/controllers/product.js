@@ -32,8 +32,7 @@ const getProduct = asyncHandler(async (req, res) => {
 const getProducts = asyncHandler(async (req, res) => {
   const queries = { ...req.query };
   try {
-    const queryObj = { ...req.query };
-    let queryStr = JSON.stringify(queryObj);
+    let queryStr = JSON.stringify(queries);
     queryStr = queryStr.replace(/\b(gte|gt|lte|lt)\b/g, (match) => `$${match}`);
 
     //fillter

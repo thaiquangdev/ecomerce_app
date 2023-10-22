@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./featuredProduct.scss";
 import ProductCard from "../productCard/ProductCard";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Link } from "react-router-dom";
+import { getProducts } from "../../features/product/productSlice";
+import { useDispatch } from "react-redux";
 
 const settings = {
   dots: true,
@@ -12,9 +14,24 @@ const settings = {
   speed: 500,
   slidesToShow: 4,
   slidesToScroll: 4,
+  autoplay: true,
+  autoplaySpeed: 5000,
 };
 
 const FeaturedProduct = () => {
+  const dispatch = useDispatch();
+  const [featuredProduct, setFeaturedProduct] = useState([]);
+
+  const getAllProducts = async () => {
+    const products = await dispatch(getProducts());
+    const productSeller = products.payload.productData.filter(
+      (product) => product.price > 50
+    );
+    setFeaturedProduct(productSeller);
+  };
+  useEffect(() => {
+    getAllProducts();
+  }, []);
   return (
     <div className="featuredProduct">
       <div className="header">
@@ -33,24 +50,13 @@ const FeaturedProduct = () => {
       <div className="content">
         <div className="row">
           <Slider {...settings}>
-            <div className="col-3">
-              <ProductCard />
-            </div>
-            <div className="col-3">
-              <ProductCard />
-            </div>
-            <div className="col-3">
-              <ProductCard />
-            </div>
-            <div className="col-3">
-              <ProductCard />
-            </div>
-            <div className="col-3">
-              <ProductCard />
-            </div>
-            <div className="col-3">
-              <ProductCard />
-            </div>
+            {featuredProduct?.map((item) => {
+              return (
+                <div className="col-3" key={item._id}>
+                  <ProductCard productData={item} />
+                </div>
+              );
+            })}
           </Slider>
         </div>
       </div>

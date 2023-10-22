@@ -30,6 +30,10 @@ var productSchema = new mongoose.Schema(
       type: Array,
       required: true,
     },
+    sizes: {
+      type: Array,
+      required: true,
+    },
     quantity: {
       type: Number,
       default: 0,
@@ -42,13 +46,13 @@ var productSchema = new mongoose.Schema(
       type: Array,
     },
     colors: {
-      type: String,
+      type: Array,
       require: true,
     },
     ratings: [
       {
         star: { type: Number },
-        potedBy: { type: mongoose.Schema.Types.ObjectId, ref: "User" },
+        postedBy: { type: mongoose.Schema.Types.ObjectId, ref: "User" },
         comment: { type: String },
       },
     ],

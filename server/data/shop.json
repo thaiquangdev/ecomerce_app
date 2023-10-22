@@ -3,15 +3,16 @@
     "productName": "Check Overshirt With Pocket Detail",
     "thumb": "https://klbtheme.com/clotya/wp-content/uploads/2022/04/overshirt1-600x900.jpg",
     "images": [
-      "https://klbtheme.com/clotya/wp-content/uploads/2022/04/overshirt1-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/overshirt2-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/overshirt3-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/overshirt4-150x150.jpg"
+      "https://klbtheme.com/clotya/wp-content/uploads/2022/04/overshirt1-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/overshirt2-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/overshirt3-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/overshirt4-600x900.jpg"
     ],
     "price": "$129.00",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "colors": [],
     "sizes": ["XS", "S", "M", "L", "XL"],
+    "sku": "BE45G8T",
     "categories": ["MEN", "SHIRTS", "SWEATSHIRTS & HOODIES", "T-SHIRTS"],
     "infomations": [
       "Quisque varius diam vel metus mattis, id aliquam diam rhoncus. Proin vitae magna in dui finibus malesuada et at nulla. Morbi elit ex, viverra vitae ante vel, blandit feugiat ligula. Fusce fermentum iaculis nibh, at sodales leo maximus a. Nullam ultricies sodales nunc, in pellentesque lorem mattis quis. Cras imperdiet est in nunc tristique lacinia. Nullam aliquam mauris eu accumsan tincidunt. Suspendisse velit ex, aliquet vel ornare vel, dignissim a tortor.",
@@ -21,7 +22,7 @@
       {
         "star": "4",
         "postedBy": "admin ",
-        "description": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+        "comment": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
       }
     ]
   },
@@ -29,10 +30,10 @@
     "productName": "World Wide Cup Print T-Shirt",
     "thumb": "https://klbtheme.com/clotya/wp-content/uploads/2022/04/cup1-600x900.jpeg",
     "images": [
-      "https://klbtheme.com/clotya/wp-content/uploads/2022/04/cup1-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/cup2-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/cup3-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/cup4-150x150.jpeg"
+      "https://klbtheme.com/clotya/wp-content/uploads/2022/04/cup1-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/cup2-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/cup3-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/cup4-600x900.jpeg"
     ],
     "price": "$29.99",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -47,6 +48,7 @@
       { "style": "background-color:#e4e4e6", "title": "White" }
     ],
     "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+    "sku": "SO7JK51",
     "categories": ["MEN", "SWEATSHIRTS & HOODIES", "T-SHIRTS"],
     "infomations": [
       "Quisque varius diam vel metus mattis, id aliquam diam rhoncus. Proin vitae magna in dui finibus malesuada et at nulla. Morbi elit ex, viverra vitae ante vel, blandit feugiat ligula. Fusce fermentum iaculis nibh, at sodales leo maximus a. Nullam ultricies sodales nunc, in pellentesque lorem mattis quis. Cras imperdiet est in nunc tristique lacinia. Nullam aliquam mauris eu accumsan tincidunt. Suspendisse velit ex, aliquet vel ornare vel, dignissim a tortor.",
@@ -56,7 +58,7 @@
       {
         "star": "4",
         "postedBy": "admin ",
-        "description": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+        "comment": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
       }
     ]
   },
@@ -64,15 +66,16 @@
     "productName": "Slogan Hoodie With Label Detail",
     "thumb": "https://klbtheme.com/clotya/wp-content/uploads/2022/04/slogan1-600x900.jpg",
     "images": [
-      "https://klbtheme.com/clotya/wp-content/uploads/2022/04/slogan1-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/slogan2-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/slogan3-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/slogan4-150x150.jpg"
+      "https://klbtheme.com/clotya/wp-content/uploads/2022/04/slogan1-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/slogan2-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/slogan3-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/slogan4-600x900.jpg"
     ],
     "price": "$18.99",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "colors": [],
     "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+    "sku": "ZHAU8T",
     "categories": [
       "MEN",
       "SWEATSHIRTS & HOODIES",
@@ -87,7 +90,7 @@
       {
         "star": "5",
         "postedBy": "admin ",
-        "description": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+        "comment": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
       }
     ]
   },
@@ -95,15 +98,16 @@
     "productName": "Pouch Pocket Hoodie Orange",
     "thumb": "https://klbtheme.com/clotya/wp-content/uploads/2022/04/pocketmen1-600x900.jpeg",
     "images": [
-      "https://klbtheme.com/clotya/wp-content/uploads/2022/04/pocketmen1-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/pocketmen2-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/pocketmen3-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/pocketmen4-150x150.jpeg"
+      "https://klbtheme.com/clotya/wp-content/uploads/2022/04/pocketmen1-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/pocketmen2-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/pocketmen3-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/pocketmen4-600x900.jpeg"
     ],
     "price": "$37.50",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "colors": [],
     "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+    "sku": "K5VORT",
     "categories": ["MEN", "SWEATSHIRTS & HOODIES"],
     "infomations": [
       "Quisque varius diam vel metus mattis, id aliquam diam rhoncus. Proin vitae magna in dui finibus malesuada et at nulla. Morbi elit ex, viverra vitae ante vel, blandit feugiat ligula. Fusce fermentum iaculis nibh, at sodales leo maximus a. Nullam ultricies sodales nunc, in pellentesque lorem mattis quis. Cras imperdiet est in nunc tristique lacinia. Nullam aliquam mauris eu accumsan tincidunt. Suspendisse velit ex, aliquet vel ornare vel, dignissim a tortor.",
@@ -113,7 +117,7 @@
       {
         "star": "4",
         "postedBy": "admin ",
-        "description": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+        "comment": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
       }
     ]
   },
@@ -121,15 +125,16 @@
     "productName": "Ripstop Cargo Trousers With Pockets",
     "thumb": "https://klbtheme.com/clotya/wp-content/uploads/2022/04/trousers1-600x900.jpeg",
     "images": [
-      "https://klbtheme.com/clotya/wp-content/uploads/2022/04/trousers1-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/trousers2-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/trousers3-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/trousers4-150x150.jpeg"
+      "https://klbtheme.com/clotya/wp-content/uploads/2022/04/trousers1-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/trousers2-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/trousers3-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/trousers4-600x900.jpeg"
     ],
     "price": "$69.99",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "colors": [],
     "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+    "sku": "BE45UOT",
     "categories": ["CARGO TROUSERS", "MEN"],
     "infomations": [
       "Quisque varius diam vel metus mattis, id aliquam diam rhoncus. Proin vitae magna in dui finibus malesuada et at nulla. Morbi elit ex, viverra vitae ante vel, blandit feugiat ligula. Fusce fermentum iaculis nibh, at sodales leo maximus a. Nullam ultricies sodales nunc, in pellentesque lorem mattis quis. Cras imperdiet est in nunc tristique lacinia. Nullam aliquam mauris eu accumsan tincidunt. Suspendisse velit ex, aliquet vel ornare vel, dignissim a tortor.",
@@ -139,7 +144,7 @@
       {
         "star": "4",
         "postedBy": "admin ",
-        "description": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+        "comment": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
       }
     ]
   },
@@ -147,15 +152,16 @@
     "productName": "Relaxed Fit Plaid Flannel Shirt",
     "thumb": "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/shirt1-600x900.jpeg",
     "images": [
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/shirt1-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/shirt2-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/shirt3-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/shirt4-150x150.jpeg"
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/shirt1-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/shirt2-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/shirt3-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/shirt4-600x900.jpeg"
     ],
     "price": "$34.99",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "colors": [],
     "sizes": [],
+    "sku": "ML79AP",
     "categories": ["MEN", "SHIRTS"],
     "infomations": [
       "Quisque varius diam vel metus mattis, id aliquam diam rhoncus. Proin vitae magna in dui finibus malesuada et at nulla. Morbi elit ex, viverra vitae ante vel, blandit feugiat ligula. Fusce fermentum iaculis nibh, at sodales leo maximus a. Nullam ultricies sodales nunc, in pellentesque lorem mattis quis. Cras imperdiet est in nunc tristique lacinia. Nullam aliquam mauris eu accumsan tincidunt. Suspendisse velit ex, aliquet vel ornare vel, dignissim a tortor.",
@@ -165,7 +171,7 @@
       {
         "star": "4",
         "postedBy": "admin ",
-        "description": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+        "comment": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
       }
     ]
   },
@@ -173,15 +179,16 @@
     "productName": "Quilted Bomber Jacket With Ribbed Trims",
     "thumb": "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/bomber1-1-600x900.jpg",
     "images": [
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/bomber1-1-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/bomber2-1-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/bomber3-1-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/bomber4-1-150x150.jpg"
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/bomber1-1-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/bomber2-1-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/bomber3-1-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/bomber4-1-600x900.jpg"
     ],
     "price": "$69.48",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "colors": [],
     "sizes": [],
+    "sku": "A9UKLA7",
     "categories": ["JACKETS & COATS", "MEN", "OUTERWEAR"],
     "infomations": [
       "Quisque varius diam vel metus mattis, id aliquam diam rhoncus. Proin vitae magna in dui finibus malesuada et at nulla. Morbi elit ex, viverra vitae ante vel, blandit feugiat ligula. Fusce fermentum iaculis nibh, at sodales leo maximus a. Nullam ultricies sodales nunc, in pellentesque lorem mattis quis. Cras imperdiet est in nunc tristique lacinia. Nullam aliquam mauris eu accumsan tincidunt. Suspendisse velit ex, aliquet vel ornare vel, dignissim a tortor.",
@@ -191,7 +198,7 @@
       {
         "star": "5",
         "postedBy": "admin ",
-        "description": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+        "comment": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
       }
     ]
   },
@@ -199,16 +206,17 @@
     "productName": "Pouch Pocket Hoodie",
     "thumb": "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/pocket1-600x900.jpeg",
     "images": [
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/pocket1-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/pocket2-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/pocket3-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/pocket4-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/pocket5-150x150.jpeg"
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/pocket1-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/pocket2-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/pocket3-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/pocket4-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/pocket5-600x900.jpeg"
     ],
     "price": "$32.40",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "colors": [],
     "sizes": [],
+    "sku": "A4M598",
     "categories": [
       "MEN",
       "SWEATSHIRTS & HOODIES",
@@ -223,7 +231,7 @@
       {
         "star": "5",
         "postedBy": "admin ",
-        "description": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+        "comment": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
       }
     ]
   },
@@ -231,14 +239,15 @@
     "productName": "Plush Bermuda Sweat Shorts",
     "thumb": "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/plush1-600x900.jpg",
     "images": [
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/plush1-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/plush2-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/plush3-150x150.jpg"
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/plush1-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/plush2-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/plush3-600x900.jpg"
     ],
     "price": "$17.80",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "colors": [],
     "sizes": [],
+    "sku": "A4M588",
     "categories": ["MEN", "SHORTS", "SWEATSHIRTS & HOODIES", "T-SHIRTS"],
     "infomations": [
       "Quisque varius diam vel metus mattis, id aliquam diam rhoncus. Proin vitae magna in dui finibus malesuada et at nulla. Morbi elit ex, viverra vitae ante vel, blandit feugiat ligula. Fusce fermentum iaculis nibh, at sodales leo maximus a. Nullam ultricies sodales nunc, in pellentesque lorem mattis quis. Cras imperdiet est in nunc tristique lacinia. Nullam aliquam mauris eu accumsan tincidunt. Suspendisse velit ex, aliquet vel ornare vel, dignissim a tortor.",
@@ -248,7 +257,7 @@
       {
         "star": "4",
         "postedBy": "admin ",
-        "description": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+        "comment": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
       }
     ]
   },
@@ -256,15 +265,16 @@
     "productName": "Oversized Denim Jacket",
     "thumb": "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/denim1-600x900.jpg",
     "images": [
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/denim1-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/denim2-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/denim3-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/denim4-150x150.jpg"
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/denim1-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/denim2-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/denim3-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/denim4-600x900.jpg"
     ],
     "price": "$78.90",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "colors": [],
     "sizes": [],
+    "sku": "COLLA58",
     "categories": ["JACKETS & COATS", "MEN"],
     "infomations": [
       "Quisque varius diam vel metus mattis, id aliquam diam rhoncus. Proin vitae magna in dui finibus malesuada et at nulla. Morbi elit ex, viverra vitae ante vel, blandit feugiat ligula. Fusce fermentum iaculis nibh, at sodales leo maximus a. Nullam ultricies sodales nunc, in pellentesque lorem mattis quis. Cras imperdiet est in nunc tristique lacinia. Nullam aliquam mauris eu accumsan tincidunt. Suspendisse velit ex, aliquet vel ornare vel, dignissim a tortor.",
@@ -274,7 +284,7 @@
       {
         "star": "4",
         "postedBy": "admin ",
-        "description": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+        "comment": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
       }
     ]
   },
@@ -282,15 +292,16 @@
     "productName": "Oversize Hoodie With Zipper",
     "thumb": "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/zipper1-600x900.jpeg",
     "images": [
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/zipper1-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/zipper2-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/zipper3-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/zipper4-150x150.jpeg"
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/zipper1-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/zipper2-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/zipper3-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/zipper4-600x900.jpeg"
     ],
     "price": "$124.00",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "colors": [],
     "sizes": [],
+    "sku": "SHLK74",
     "categories": [
       "JACKETS & COATS",
       "MEN",
@@ -305,7 +316,7 @@
       {
         "star": "5",
         "postedBy": "admin ",
-        "description": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+        "comment": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
       }
     ]
   },
@@ -313,16 +324,17 @@
     "productName": "Naruto Itachi Print T-shirt",
     "thumb": "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/naruto1-600x900.jpeg",
     "images": [
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/naruto1-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/naruto2-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/naruto3-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/naruto4-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/naruto5-150x150.jpeg"
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/naruto1-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/naruto2-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/naruto3-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/naruto4-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/naruto5-600x900.jpeg"
     ],
     "price": "$23.90",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "colors": [],
     "sizes": [],
+    "sku": "TA4JK74",
     "categories": ["MEN", "T-SHIRTS"],
     "infomations": [
       "Quisque varius diam vel metus mattis, id aliquam diam rhoncus. Proin vitae magna in dui finibus malesuada et at nulla. Morbi elit ex, viverra vitae ante vel, blandit feugiat ligula. Fusce fermentum iaculis nibh, at sodales leo maximus a. Nullam ultricies sodales nunc, in pellentesque lorem mattis quis. Cras imperdiet est in nunc tristique lacinia. Nullam aliquam mauris eu accumsan tincidunt. Suspendisse velit ex, aliquet vel ornare vel, dignissim a tortor.",
@@ -332,7 +344,7 @@
       {
         "star": "4",
         "postedBy": "admin ",
-        "description": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+        "comment": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
       }
     ]
   },
@@ -340,15 +352,16 @@
     "productName": "Loose-fit Jeans",
     "thumb": "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/loose1-600x900.jpg",
     "images": [
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/loose1-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/loose2-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/loose3-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/loose4-150x150.jpg"
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/loose1-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/loose2-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/loose3-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/loose4-600x900.jpg"
     ],
     "price": "$38.99",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "colors": [],
     "sizes": [],
+    "sku": "TG45VGRT",
     "categories": ["BELTS", "CARGO TROUSERS", "JEANS", "MEN"],
     "infomations": [
       "Quisque varius diam vel metus mattis, id aliquam diam rhoncus. Proin vitae magna in dui finibus malesuada et at nulla. Morbi elit ex, viverra vitae ante vel, blandit feugiat ligula. Fusce fermentum iaculis nibh, at sodales leo maximus a. Nullam ultricies sodales nunc, in pellentesque lorem mattis quis. Cras imperdiet est in nunc tristique lacinia. Nullam aliquam mauris eu accumsan tincidunt. Suspendisse velit ex, aliquet vel ornare vel, dignissim a tortor.",
@@ -358,7 +371,7 @@
       {
         "star": "4",
         "postedBy": "admin ",
-        "description": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+        "comment": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
       }
     ]
   },
@@ -366,15 +379,16 @@
     "productName": "Lightweight Zipped Bomber Jacket",
     "thumb": "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/zipped1-600x900.jpeg",
     "images": [
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/zipped1-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/zipped2-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/zipped3-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/zipped4-150x150.jpeg"
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/zipped1-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/zipped2-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/zipped3-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/zipped4-600x900.jpeg"
     ],
     "price": "$30.99",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "colors": [],
     "sizes": [],
+    "sku": "YHE4M7",
     "categories": ["BELTS", "JACKETS & COATS", "MEN"],
     "infomations": [
       "Quisque varius diam vel metus mattis, id aliquam diam rhoncus. Proin vitae magna in dui finibus malesuada et at nulla. Morbi elit ex, viverra vitae ante vel, blandit feugiat ligula. Fusce fermentum iaculis nibh, at sodales leo maximus a. Nullam ultricies sodales nunc, in pellentesque lorem mattis quis. Cras imperdiet est in nunc tristique lacinia. Nullam aliquam mauris eu accumsan tincidunt. Suspendisse velit ex, aliquet vel ornare vel, dignissim a tortor.",
@@ -384,7 +398,7 @@
       {
         "star": "5",
         "postedBy": "admin ",
-        "description": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+        "comment": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
       }
     ]
   },
@@ -392,15 +406,16 @@
     "productName": "Hot Stuff Hoodie",
     "thumb": "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/stuff1-600x900.jpeg",
     "images": [
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/stuff1-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/stuff2-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/stuff3-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/stuff4-150x150.jpeg"
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/stuff1-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/stuff2-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/stuff3-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/stuff4-600x900.jpeg"
     ],
     "price": "$89.00",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "colors": [],
     "sizes": [],
+    "sku": "YAE4M79",
     "categories": [
       "OUTERWEAR",
       "SWEATSHIRTS & HOODIES",
@@ -415,7 +430,7 @@
       {
         "star": "4",
         "postedBy": "admin ",
-        "description": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+        "comment": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
       }
     ]
   },
@@ -423,15 +438,16 @@
     "productName": "Faux Suede Jacket With Pockets",
     "thumb": "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/suede1-600x900.jpg",
     "images": [
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/suede1-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/suede2-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/suede3-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/suede4-150x150.jpg"
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/suede1-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/suede2-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/suede3-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/suede4-600x900.jpg"
     ],
     "price": "$89.90",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "colors": [],
     "sizes": [],
+    "sku": "USR4JK74",
     "categories": ["JACKETS & COATS", "MEN", "SWEATSHIRTS & HOODIES"],
     "infomations": [
       "Quisque varius diam vel metus mattis, id aliquam diam rhoncus. Proin vitae magna in dui finibus malesuada et at nulla. Morbi elit ex, viverra vitae ante vel, blandit feugiat ligula. Fusce fermentum iaculis nibh, at sodales leo maximus a. Nullam ultricies sodales nunc, in pellentesque lorem mattis quis. Cras imperdiet est in nunc tristique lacinia. Nullam aliquam mauris eu accumsan tincidunt. Suspendisse velit ex, aliquet vel ornare vel, dignissim a tortor.",
@@ -441,7 +457,7 @@
       {
         "star": "5",
         "postedBy": "admin ",
-        "description": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+        "comment": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
       }
     ]
   },
@@ -449,10 +465,10 @@
     "productName": "Basic Colored Sweatpants With Elastic Hems",
     "thumb": "https://klbtheme.com/clotya/wp-content/uploads/2022/04/pants1-600x900.jpeg",
     "images": [
-      "https://klbtheme.com/clotya/wp-content/uploads/2022/04/pants1-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/pants2-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/pants3-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/pants4-150x150.jpeg"
+      "https://klbtheme.com/clotya/wp-content/uploads/2022/04/pants1-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/pants2-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/pants3-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/pants4-600x900.jpeg"
     ],
     "price": "$25.90",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -467,6 +483,7 @@
       { "style": "background-color:#e4e4e6", "title": "White" }
     ],
     "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+    "sku": "BE45VGRT",
     "categories": ["PANTS", "WOMEN"],
     "infomations": [
       "Quisque varius diam vel metus mattis, id aliquam diam rhoncus. Proin vitae magna in dui finibus malesuada et at nulla. Morbi elit ex, viverra vitae ante vel, blandit feugiat ligula. Fusce fermentum iaculis nibh, at sodales leo maximus a. Nullam ultricies sodales nunc, in pellentesque lorem mattis quis. Cras imperdiet est in nunc tristique lacinia. Nullam aliquam mauris eu accumsan tincidunt. Suspendisse velit ex, aliquet vel ornare vel, dignissim a tortor.",
@@ -476,12 +493,12 @@
       {
         "star": "5",
         "postedBy": "admin ",
-        "description": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+        "comment": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
       },
       {
         "star": "5",
         "postedBy": "Elliot Alderson ",
-        "description": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+        "comment": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
       }
     ]
   },
@@ -489,16 +506,17 @@
     "productName": "Basic High-Neck Puff Jacket",
     "thumb": "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/basic1-600x900.jpeg",
     "images": [
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/basic1-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/basic2-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/basic3-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/basic4-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/basic5-150x150.jpeg"
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/basic1-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/basic2-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/basic3-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/basic4-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/basic5-600x900.jpeg"
     ],
     "price": "$89.00",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "colors": [],
     "sizes": [],
+    "sku": "SUAJK74",
     "categories": ["JACKETS & COATS", "OUTERWEAR", "WOMEN"],
     "infomations": [
       "Quisque varius diam vel metus mattis, id aliquam diam rhoncus. Proin vitae magna in dui finibus malesuada et at nulla. Morbi elit ex, viverra vitae ante vel, blandit feugiat ligula. Fusce fermentum iaculis nibh, at sodales leo maximus a. Nullam ultricies sodales nunc, in pellentesque lorem mattis quis. Cras imperdiet est in nunc tristique lacinia. Nullam aliquam mauris eu accumsan tincidunt. Suspendisse velit ex, aliquet vel ornare vel, dignissim a tortor.",
@@ -508,7 +526,7 @@
       {
         "star": "4",
         "postedBy": "admin ",
-        "description": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+        "comment": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
       }
     ]
   },
@@ -516,10 +534,10 @@
     "productName": "Basic Relax Fit Leggings",
     "thumb": "https://klbtheme.com/clotya/wp-content/uploads/2022/04/leggings1-600x900.jpeg",
     "images": [
-      "https://klbtheme.com/clotya/wp-content/uploads/2022/04/leggings1-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/leggings2-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/leggings3-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/leggings4-150x150.jpeg"
+      "https://klbtheme.com/clotya/wp-content/uploads/2022/04/leggings1-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/leggings2-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/leggings3-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/leggings4-600x900.jpeg"
     ],
     "price": "$29.90",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -535,6 +553,7 @@
       { "style": "background-color:#e4e4e6", "title": "White" }
     ],
     "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+    "sku": "BE45O8T",
     "categories": ["DRESSES", "TOPS & BODYSUITS", "WOMEN"],
     "infomations": [
       "Quisque varius diam vel metus mattis, id aliquam diam rhoncus. Proin vitae magna in dui finibus malesuada et at nulla. Morbi elit ex, viverra vitae ante vel, blandit feugiat ligula. Fusce fermentum iaculis nibh, at sodales leo maximus a. Nullam ultricies sodales nunc, in pellentesque lorem mattis quis. Cras imperdiet est in nunc tristique lacinia. Nullam aliquam mauris eu accumsan tincidunt. Suspendisse velit ex, aliquet vel ornare vel, dignissim a tortor.",
@@ -544,7 +563,7 @@
       {
         "star": "5",
         "postedBy": "admin ",
-        "description": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+        "comment": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
       }
     ]
   },
@@ -552,10 +571,10 @@
     "productName": "Rose Printed Hoodie",
     "thumb": "https://klbtheme.com/clotya/wp-content/uploads/2022/04/printedh1-600x900.jpg",
     "images": [
-      "https://klbtheme.com/clotya/wp-content/uploads/2022/04/printedh1-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/printedh2-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/printedh3-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/printedh4-150x150.jpg"
+      "https://klbtheme.com/clotya/wp-content/uploads/2022/04/printedh1-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/printedh2-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/printedh3-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/printedh4-600x900.jpg"
     ],
     "price": "$110.99",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -568,6 +587,7 @@
       { "style": "background-color:#fdf7ab", "title": "Yellow" }
     ],
     "sizes": ["XS", "S", "M", "L", "XL"],
+    "sku": "SRAK79",
     "categories": ["SWEATSHIRTS & HOODIES", "WOMEN"],
     "infomations": [
       "Quisque varius diam vel metus mattis, id aliquam diam rhoncus. Proin vitae magna in dui finibus malesuada et at nulla. Morbi elit ex, viverra vitae ante vel, blandit feugiat ligula. Fusce fermentum iaculis nibh, at sodales leo maximus a. Nullam ultricies sodales nunc, in pellentesque lorem mattis quis. Cras imperdiet est in nunc tristique lacinia. Nullam aliquam mauris eu accumsan tincidunt. Suspendisse velit ex, aliquet vel ornare vel, dignissim a tortor.",
@@ -577,7 +597,7 @@
       {
         "star": "5",
         "postedBy": "admin ",
-        "description": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+        "comment": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
       }
     ]
   },
@@ -585,15 +605,16 @@
     "productName": "Sleeveless Ribbed Short Dress Black",
     "thumb": "https://klbtheme.com/clotya/wp-content/uploads/2022/04/dressblack1-1-600x900.jpeg",
     "images": [
-      "https://klbtheme.com/clotya/wp-content/uploads/2022/04/dressblack1-1-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/dressblack2-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/dressblack3-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/dressblack4-150x150.jpeg"
+      "https://klbtheme.com/clotya/wp-content/uploads/2022/04/dressblack1-1-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/dressblack2-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/dressblack3-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/dressblack4-600x900.jpeg"
     ],
     "price": "$19.99",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "colors": [],
     "sizes": ["XS", "M", "L", "XL"],
+    "sku": "K8UOGRT",
     "categories": ["DRESSES", "WOMEN"],
     "infomations": [
       "Quisque varius diam vel metus mattis, id aliquam diam rhoncus. Proin vitae magna in dui finibus malesuada et at nulla. Morbi elit ex, viverra vitae ante vel, blandit feugiat ligula. Fusce fermentum iaculis nibh, at sodales leo maximus a. Nullam ultricies sodales nunc, in pellentesque lorem mattis quis. Cras imperdiet est in nunc tristique lacinia. Nullam aliquam mauris eu accumsan tincidunt. Suspendisse velit ex, aliquet vel ornare vel, dignissim a tortor.",
@@ -603,7 +624,7 @@
       {
         "star": "4",
         "postedBy": "admin ",
-        "description": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+        "comment": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
       }
     ]
   },
@@ -611,15 +632,16 @@
     "productName": "Slogan Hoodie With Label Detail",
     "thumb": "https://klbtheme.com/clotya/wp-content/uploads/2022/04/slogan1-600x900.jpg",
     "images": [
-      "https://klbtheme.com/clotya/wp-content/uploads/2022/04/slogan1-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/slogan2-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/slogan3-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/slogan4-150x150.jpg"
+      "https://klbtheme.com/clotya/wp-content/uploads/2022/04/slogan1-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/slogan2-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/slogan3-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/slogan4-600x900.jpg"
     ],
     "price": "$18.99",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "colors": [],
     "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+    "sku": "ZHAU8T",
     "categories": [
       "MEN",
       "SWEATSHIRTS & HOODIES",
@@ -634,7 +656,7 @@
       {
         "star": "5",
         "postedBy": "admin ",
-        "description": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+        "comment": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
       }
     ]
   },
@@ -642,15 +664,16 @@
     "productName": "Short Nylon-Effect Puffer Jacket",
     "thumb": "https://klbtheme.com/clotya/wp-content/uploads/2022/04/nylon1-600x900.jpg",
     "images": [
-      "https://klbtheme.com/clotya/wp-content/uploads/2022/04/nylon1-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/nylon2-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/nylon3-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/nylon4-150x150.jpg"
+      "https://klbtheme.com/clotya/wp-content/uploads/2022/04/nylon1-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/nylon2-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/nylon3-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/nylon4-600x900.jpg"
     ],
     "price": "$29.90",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "colors": [],
     "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+    "sku": "SO4JK74",
     "categories": ["JACKETS & COATS", "OUTERWEAR", "WOMEN"],
     "infomations": [
       "Quisque varius diam vel metus mattis, id aliquam diam rhoncus. Proin vitae magna in dui finibus malesuada et at nulla. Morbi elit ex, viverra vitae ante vel, blandit feugiat ligula. Fusce fermentum iaculis nibh, at sodales leo maximus a. Nullam ultricies sodales nunc, in pellentesque lorem mattis quis. Cras imperdiet est in nunc tristique lacinia. Nullam aliquam mauris eu accumsan tincidunt. Suspendisse velit ex, aliquet vel ornare vel, dignissim a tortor.",
@@ -660,12 +683,12 @@
       {
         "star": "5",
         "postedBy": "admin ",
-        "description": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+        "comment": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
       },
       {
         "star": "4",
         "postedBy": "admin ",
-        "description": "Sed perspiciatis unde omnis iste natus error sit lorem voluptatem accusantium doloremque laudantium."
+        "comment": "Sed perspiciatis unde omnis iste natus error sit lorem voluptatem accusantium doloremque laudantium."
       }
     ]
   },
@@ -673,15 +696,16 @@
     "productName": "Sleeveless Ribbed Short Dress",
     "thumb": "https://klbtheme.com/clotya/wp-content/uploads/2022/04/sleev1-600x900.jpeg",
     "images": [
-      "https://klbtheme.com/clotya/wp-content/uploads/2022/04/sleev1-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/sleev2-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/sleev3-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/sleev4-150x150.jpeg"
+      "https://klbtheme.com/clotya/wp-content/uploads/2022/04/sleev1-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/sleev2-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/sleev3-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/sleev4-600x900.jpeg"
     ],
     "price": "$19.99",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "colors": [],
     "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+    "sku": "JHSVGRT",
     "categories": ["DRESSES", "WOMEN"],
     "infomations": [
       "Quisque varius diam vel metus mattis, id aliquam diam rhoncus. Proin vitae magna in dui finibus malesuada et at nulla. Morbi elit ex, viverra vitae ante vel, blandit feugiat ligula. Fusce fermentum iaculis nibh, at sodales leo maximus a. Nullam ultricies sodales nunc, in pellentesque lorem mattis quis. Cras imperdiet est in nunc tristique lacinia. Nullam aliquam mauris eu accumsan tincidunt. Suspendisse velit ex, aliquet vel ornare vel, dignissim a tortor.",
@@ -691,7 +715,7 @@
       {
         "star": "5",
         "postedBy": "admin ",
-        "description": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+        "comment": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
       }
     ]
   },
@@ -699,15 +723,16 @@
     "productName": "Short Sleeve T-Shirt With Landscape Graphic",
     "thumb": "https://klbtheme.com/clotya/wp-content/uploads/2022/04/graphic1-600x900.jpg",
     "images": [
-      "https://klbtheme.com/clotya/wp-content/uploads/2022/04/graphic1-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/graphic2-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/graphic3-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/graphic4-150x150.jpg"
+      "https://klbtheme.com/clotya/wp-content/uploads/2022/04/graphic1-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/graphic2-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/graphic3-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/graphic4-600x900.jpg"
     ],
     "price": "$48.90",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "colors": [],
     "sizes": ["S", "M", "XL"],
+    "sku": "SO4JY74",
     "categories": ["T-SHIRTS", "TOPS & BODYSUITS", "WOMEN"],
     "infomations": [
       "Quisque varius diam vel metus mattis, id aliquam diam rhoncus. Proin vitae magna in dui finibus malesuada et at nulla. Morbi elit ex, viverra vitae ante vel, blandit feugiat ligula. Fusce fermentum iaculis nibh, at sodales leo maximus a. Nullam ultricies sodales nunc, in pellentesque lorem mattis quis. Cras imperdiet est in nunc tristique lacinia. Nullam aliquam mauris eu accumsan tincidunt. Suspendisse velit ex, aliquet vel ornare vel, dignissim a tortor.",
@@ -717,7 +742,7 @@
       {
         "star": "5",
         "postedBy": "admin ",
-        "description": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+        "comment": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
       }
     ]
   },
@@ -725,15 +750,16 @@
     "productName": "Short Dress With Knotted Skirt",
     "thumb": "https://klbtheme.com/clotya/wp-content/uploads/2022/04/knotted1-600x900.jpeg",
     "images": [
-      "https://klbtheme.com/clotya/wp-content/uploads/2022/04/knotted1-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/knotted2-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/knotted3-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/knotted4-150x150.jpeg"
+      "https://klbtheme.com/clotya/wp-content/uploads/2022/04/knotted1-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/knotted2-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/knotted3-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/knotted4-600x900.jpeg"
     ],
     "price": "$85.90",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "colors": [],
     "sizes": ["XXS", "XS", "S", "M"],
+    "sku": "BE35VGRT",
     "categories": ["SKIRTS", "WOMEN"],
     "infomations": [
       "Quisque varius diam vel metus mattis, id aliquam diam rhoncus. Proin vitae magna in dui finibus malesuada et at nulla. Morbi elit ex, viverra vitae ante vel, blandit feugiat ligula. Fusce fermentum iaculis nibh, at sodales leo maximus a. Nullam ultricies sodales nunc, in pellentesque lorem mattis quis. Cras imperdiet est in nunc tristique lacinia. Nullam aliquam mauris eu accumsan tincidunt. Suspendisse velit ex, aliquet vel ornare vel, dignissim a tortor.",
@@ -743,7 +769,7 @@
       {
         "star": "4",
         "postedBy": "admin ",
-        "description": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+        "comment": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
       }
     ]
   },
@@ -751,15 +777,16 @@
     "productName": "Ripped Wide-Leg ’90s Jeans",
     "thumb": "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/wideleg1-600x900.jpg",
     "images": [
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/wideleg1-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/wideleg2-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/wideleg3-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/wideleg4-150x150.jpg"
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/wideleg1-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/wideleg2-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/wideleg3-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/wideleg4-600x900.jpg"
     ],
     "price": "$45.90",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "colors": [],
     "sizes": [],
+    "sku": "SU9JK74",
     "categories": ["JEANS", "PANTS", "WOMEN"],
     "infomations": [
       "Quisque varius diam vel metus mattis, id aliquam diam rhoncus. Proin vitae magna in dui finibus malesuada et at nulla. Morbi elit ex, viverra vitae ante vel, blandit feugiat ligula. Fusce fermentum iaculis nibh, at sodales leo maximus a. Nullam ultricies sodales nunc, in pellentesque lorem mattis quis. Cras imperdiet est in nunc tristique lacinia. Nullam aliquam mauris eu accumsan tincidunt. Suspendisse velit ex, aliquet vel ornare vel, dignissim a tortor.",
@@ -769,7 +796,7 @@
       {
         "star": "5",
         "postedBy": "admin ",
-        "description": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+        "comment": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
       }
     ]
   },
@@ -777,15 +804,16 @@
     "productName": "Ripped Mom Jeans – Contains Recycled Cotton",
     "thumb": "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/ripped1-600x900.jpeg",
     "images": [
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/ripped1-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/ripped2-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/ripped3-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/ripped4-scaled-1-150x150.jpeg"
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/ripped1-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/ripped2-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/ripped3-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/ripped4-scaled-1-600x900.jpeg"
     ],
     "price": "$59.90",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "colors": [],
     "sizes": [],
+    "sku": "YU5VGRT",
     "categories": ["JEANS", "PANTS", "WOMEN"],
     "infomations": [
       "Quisque varius diam vel metus mattis, id aliquam diam rhoncus. Proin vitae magna in dui finibus malesuada et at nulla. Morbi elit ex, viverra vitae ante vel, blandit feugiat ligula. Fusce fermentum iaculis nibh, at sodales leo maximus a. Nullam ultricies sodales nunc, in pellentesque lorem mattis quis. Cras imperdiet est in nunc tristique lacinia. Nullam aliquam mauris eu accumsan tincidunt. Suspendisse velit ex, aliquet vel ornare vel, dignissim a tortor.",
@@ -795,7 +823,7 @@
       {
         "star": "4",
         "postedBy": "admin ",
-        "description": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+        "comment": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
       }
     ]
   },
@@ -803,15 +831,16 @@
     "productName": "Ripped Flared Vintage Jeans",
     "thumb": "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/flared1-600x900.jpg",
     "images": [
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/flared1-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/flared2-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/flared3-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/flared4-150x150.jpg"
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/flared1-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/flared2-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/flared3-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/flared4-600x900.jpg"
     ],
     "price": "$45.90",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "colors": [],
     "sizes": [],
+    "sku": "NE45UT",
     "categories": ["JEANS", "PANTS", "WOMEN"],
     "infomations": [
       "Quisque varius diam vel metus mattis, id aliquam diam rhoncus. Proin vitae magna in dui finibus malesuada et at nulla. Morbi elit ex, viverra vitae ante vel, blandit feugiat ligula. Fusce fermentum iaculis nibh, at sodales leo maximus a. Nullam ultricies sodales nunc, in pellentesque lorem mattis quis. Cras imperdiet est in nunc tristique lacinia. Nullam aliquam mauris eu accumsan tincidunt. Suspendisse velit ex, aliquet vel ornare vel, dignissim a tortor.",
@@ -821,7 +850,7 @@
       {
         "star": "5",
         "postedBy": "admin ",
-        "description": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+        "comment": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
       }
     ]
   },
@@ -829,10 +858,10 @@
     "productName": "Ribbed V-Neck Cardigan With Rhinestone Detail",
     "thumb": "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/ribbed1-600x900.jpg",
     "images": [
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/ribbed1-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/ribbed2-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/ribbed3-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/ribbed4-150x150.jpg"
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/ribbed1-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/ribbed2-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/ribbed3-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/ribbed4-600x900.jpg"
     ],
     "price": "$28.00",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -841,6 +870,7 @@
       { "style": "background-color:#003080", "title": "Bio Blue" }
     ],
     "sizes": ["XXS", "S", "L"],
+    "sku": "NE49UT3",
     "categories": ["BLAZERS", "BLOUSES & SHIRTS", "WOMEN"],
     "infomations": [
       "Quisque varius diam vel metus mattis, id aliquam diam rhoncus. Proin vitae magna in dui finibus malesuada et at nulla. Morbi elit ex, viverra vitae ante vel, blandit feugiat ligula. Fusce fermentum iaculis nibh, at sodales leo maximus a. Nullam ultricies sodales nunc, in pellentesque lorem mattis quis. Cras imperdiet est in nunc tristique lacinia. Nullam aliquam mauris eu accumsan tincidunt. Suspendisse velit ex, aliquet vel ornare vel, dignissim a tortor.",
@@ -850,7 +880,7 @@
       {
         "star": "4",
         "postedBy": "admin ",
-        "description": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+        "comment": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
       }
     ]
   },
@@ -858,15 +888,16 @@
     "productName": "Ribbed Cropped T-Shirt With Buttons",
     "thumb": "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/buttons1-600x900.jpg",
     "images": [
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/buttons1-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/buttons2-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/buttons3-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/buttons4-150x150.jpg"
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/buttons1-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/buttons2-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/buttons3-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/buttons4-600x900.jpg"
     ],
     "price": "$23.99",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "colors": [],
     "sizes": [],
+    "sku": "NE45UT58",
     "categories": ["T-SHIRTS", "WOMEN"],
     "infomations": [
       "Quisque varius diam vel metus mattis, id aliquam diam rhoncus. Proin vitae magna in dui finibus malesuada et at nulla. Morbi elit ex, viverra vitae ante vel, blandit feugiat ligula. Fusce fermentum iaculis nibh, at sodales leo maximus a. Nullam ultricies sodales nunc, in pellentesque lorem mattis quis. Cras imperdiet est in nunc tristique lacinia. Nullam aliquam mauris eu accumsan tincidunt. Suspendisse velit ex, aliquet vel ornare vel, dignissim a tortor.",
@@ -876,7 +907,7 @@
       {
         "star": "5",
         "postedBy": "admin ",
-        "description": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+        "comment": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
       }
     ]
   },
@@ -884,16 +915,17 @@
     "productName": "Pouch Pocket Hoodie",
     "thumb": "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/pocket1-600x900.jpeg",
     "images": [
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/pocket1-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/pocket2-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/pocket3-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/pocket4-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/pocket5-150x150.jpeg"
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/pocket1-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/pocket2-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/pocket3-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/pocket4-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/pocket5-600x900.jpeg"
     ],
     "price": "$32.40",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "colors": [],
     "sizes": [],
+    "sku": "A4M598",
     "categories": [
       "MEN",
       "SWEATSHIRTS & HOODIES",
@@ -908,7 +940,7 @@
       {
         "star": "5",
         "postedBy": "admin ",
-        "description": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+        "comment": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
       }
     ]
   },
@@ -916,15 +948,16 @@
     "productName": "Knee-High Heeled Boots",
     "thumb": "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/boots1-600x900.jpeg",
     "images": [
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/boots1-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/boots2-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/boots3-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/boots4-150x150.jpeg"
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/boots1-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/boots2-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/boots3-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/boots4-600x900.jpeg"
     ],
     "price": "$69.00",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "colors": [],
     "sizes": [],
+    "sku": "YO598C",
     "categories": ["SHOES", "WOMEN"],
     "infomations": [
       "Quisque varius diam vel metus mattis, id aliquam diam rhoncus. Proin vitae magna in dui finibus malesuada et at nulla. Morbi elit ex, viverra vitae ante vel, blandit feugiat ligula. Fusce fermentum iaculis nibh, at sodales leo maximus a. Nullam ultricies sodales nunc, in pellentesque lorem mattis quis. Cras imperdiet est in nunc tristique lacinia. Nullam aliquam mauris eu accumsan tincidunt. Suspendisse velit ex, aliquet vel ornare vel, dignissim a tortor.",
@@ -934,7 +967,7 @@
       {
         "star": "5",
         "postedBy": "admin ",
-        "description": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+        "comment": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
       }
     ]
   },
@@ -942,15 +975,16 @@
     "productName": "Shoulder Bag With A Mock Croc Finish",
     "thumb": "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/shoulder1-600x900.jpeg",
     "images": [
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/shoulder1-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/shoulder2-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/shoulder4-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/shoulder3-150x150.jpeg"
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/shoulder1-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/shoulder2-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/shoulder4-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/shoulder3-600x900.jpeg"
     ],
     "price": "$35.90",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "colors": [],
     "sizes": [],
+    "sku": "SINOM547",
     "categories": ["BAGS"],
     "infomations": [
       "Quisque varius diam vel metus mattis, id aliquam diam rhoncus. Proin vitae magna in dui finibus malesuada et at nulla. Morbi elit ex, viverra vitae ante vel, blandit feugiat ligula. Fusce fermentum iaculis nibh, at sodales leo maximus a. Nullam ultricies sodales nunc, in pellentesque lorem mattis quis. Cras imperdiet est in nunc tristique lacinia. Nullam aliquam mauris eu accumsan tincidunt. Suspendisse velit ex, aliquet vel ornare vel, dignissim a tortor.",
@@ -960,7 +994,7 @@
       {
         "star": "4",
         "postedBy": "admin ",
-        "description": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+        "comment": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
       }
     ]
   },
@@ -968,15 +1002,16 @@
     "productName": "Soft Shoulder Bag",
     "thumb": "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/softbag1-600x900.jpeg",
     "images": [
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/softbag1-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/softbag3-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/softbag2-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/softbag4-150x150.jpeg"
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/softbag1-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/softbag3-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/softbag2-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/softbag4-600x900.jpeg"
     ],
     "price": "$64.48",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "colors": [],
     "sizes": [],
+    "sku": "TATVAN13",
     "categories": ["BAGS", "WOMEN"],
     "infomations": [
       "Quisque varius diam vel metus mattis, id aliquam diam rhoncus. Proin vitae magna in dui finibus malesuada et at nulla. Morbi elit ex, viverra vitae ante vel, blandit feugiat ligula. Fusce fermentum iaculis nibh, at sodales leo maximus a. Nullam ultricies sodales nunc, in pellentesque lorem mattis quis. Cras imperdiet est in nunc tristique lacinia. Nullam aliquam mauris eu accumsan tincidunt. Suspendisse velit ex, aliquet vel ornare vel, dignissim a tortor.",
@@ -986,7 +1021,7 @@
       {
         "star": "4",
         "postedBy": "admin ",
-        "description": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+        "comment": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
       }
     ]
   },
@@ -994,15 +1029,16 @@
     "productName": "Faux Leather Overshirt With Pocket",
     "thumb": "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/leather-600x900.jpeg",
     "images": [
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/leather-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/leather2-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/leather3-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/leather4-150x150.jpeg"
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/leather-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/leather2-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/leather3-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/leather4-600x900.jpeg"
     ],
     "price": "$89.90",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "colors": [],
     "sizes": [],
+    "sku": "UC47B59",
     "categories": ["ACCESSORIES", "JACKETS & COATS", "WOMEN"],
     "infomations": [
       "Quisque varius diam vel metus mattis, id aliquam diam rhoncus. Proin vitae magna in dui finibus malesuada et at nulla. Morbi elit ex, viverra vitae ante vel, blandit feugiat ligula. Fusce fermentum iaculis nibh, at sodales leo maximus a. Nullam ultricies sodales nunc, in pellentesque lorem mattis quis. Cras imperdiet est in nunc tristique lacinia. Nullam aliquam mauris eu accumsan tincidunt. Suspendisse velit ex, aliquet vel ornare vel, dignissim a tortor.",
@@ -1012,7 +1048,7 @@
       {
         "star": "4",
         "postedBy": "admin ",
-        "description": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+        "comment": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
       }
     ]
   },
@@ -1020,14 +1056,15 @@
     "productName": "Dress With Cut-Out and Ring Detail",
     "thumb": "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/cutout-600x900.jpeg",
     "images": [
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/cutout-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/cutout2-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/cutout3-150x150.jpeg"
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/cutout-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/cutout2-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/cutout3-600x900.jpeg"
     ],
     "price": "$49.00",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "colors": [],
     "sizes": [],
+    "sku": "PUKL46",
     "categories": ["ACCESSORIES", "DRESSES", "WOMEN"],
     "infomations": [
       "Quisque varius diam vel metus mattis, id aliquam diam rhoncus. Proin vitae magna in dui finibus malesuada et at nulla. Morbi elit ex, viverra vitae ante vel, blandit feugiat ligula. Fusce fermentum iaculis nibh, at sodales leo maximus a. Nullam ultricies sodales nunc, in pellentesque lorem mattis quis. Cras imperdiet est in nunc tristique lacinia. Nullam aliquam mauris eu accumsan tincidunt. Suspendisse velit ex, aliquet vel ornare vel, dignissim a tortor.",
@@ -1037,7 +1074,7 @@
       {
         "star": "4",
         "postedBy": "admin ",
-        "description": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+        "comment": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
       }
     ]
   },
@@ -1045,15 +1082,16 @@
     "productName": "Corduroy Bucket Hat",
     "thumb": "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/bucket3-600x900.jpg",
     "images": [
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/bucket3-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/bucket2-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/bucket1-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/bucket4-150x150.jpg"
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/bucket3-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/bucket2-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/bucket1-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/bucket4-600x900.jpg"
     ],
     "price": "$6.99",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "colors": [],
     "sizes": [],
+    "sku": "GEO3U74",
     "categories": ["ACCESSORIES", "MEN", "WOMEN"],
     "infomations": [
       "Quisque varius diam vel metus mattis, id aliquam diam rhoncus. Proin vitae magna in dui finibus malesuada et at nulla. Morbi elit ex, viverra vitae ante vel, blandit feugiat ligula. Fusce fermentum iaculis nibh, at sodales leo maximus a. Nullam ultricies sodales nunc, in pellentesque lorem mattis quis. Cras imperdiet est in nunc tristique lacinia. Nullam aliquam mauris eu accumsan tincidunt. Suspendisse velit ex, aliquet vel ornare vel, dignissim a tortor.",
@@ -1063,7 +1101,7 @@
       {
         "star": "5",
         "postedBy": "admin ",
-        "description": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+        "comment": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
       }
     ]
   },
@@ -1071,15 +1109,16 @@
     "productName": "Ripstop Cargo Trousers With Pockets",
     "thumb": "https://klbtheme.com/clotya/wp-content/uploads/2022/04/trousers1-600x900.jpeg",
     "images": [
-      "https://klbtheme.com/clotya/wp-content/uploads/2022/04/trousers1-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/trousers2-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/trousers3-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/trousers4-150x150.jpeg"
+      "https://klbtheme.com/clotya/wp-content/uploads/2022/04/trousers1-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/trousers2-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/trousers3-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/trousers4-600x900.jpeg"
     ],
     "price": "$69.99",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "colors": [],
     "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+    "sku": "BE45UOT",
     "categories": ["CARGO TROUSERS", "MEN"],
     "infomations": [
       "Quisque varius diam vel metus mattis, id aliquam diam rhoncus. Proin vitae magna in dui finibus malesuada et at nulla. Morbi elit ex, viverra vitae ante vel, blandit feugiat ligula. Fusce fermentum iaculis nibh, at sodales leo maximus a. Nullam ultricies sodales nunc, in pellentesque lorem mattis quis. Cras imperdiet est in nunc tristique lacinia. Nullam aliquam mauris eu accumsan tincidunt. Suspendisse velit ex, aliquet vel ornare vel, dignissim a tortor.",
@@ -1089,7 +1128,7 @@
       {
         "star": "4",
         "postedBy": "admin ",
-        "description": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+        "comment": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
       }
     ]
   },
@@ -1097,15 +1136,16 @@
     "productName": "Loose-fit Jeans",
     "thumb": "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/loose1-600x900.jpg",
     "images": [
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/loose1-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/loose2-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/loose3-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/loose4-150x150.jpg"
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/loose1-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/loose2-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/loose3-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/loose4-600x900.jpg"
     ],
     "price": "$38.99",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "colors": [],
     "sizes": [],
+    "sku": "TG45VGRT",
     "categories": ["BELTS", "CARGO TROUSERS", "JEANS", "MEN"],
     "infomations": [
       "Quisque varius diam vel metus mattis, id aliquam diam rhoncus. Proin vitae magna in dui finibus malesuada et at nulla. Morbi elit ex, viverra vitae ante vel, blandit feugiat ligula. Fusce fermentum iaculis nibh, at sodales leo maximus a. Nullam ultricies sodales nunc, in pellentesque lorem mattis quis. Cras imperdiet est in nunc tristique lacinia. Nullam aliquam mauris eu accumsan tincidunt. Suspendisse velit ex, aliquet vel ornare vel, dignissim a tortor.",
@@ -1115,7 +1155,7 @@
       {
         "star": "4",
         "postedBy": "admin ",
-        "description": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+        "comment": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
       }
     ]
   },
@@ -1123,15 +1163,16 @@
     "productName": "Carpenter Jeans",
     "thumb": "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/carpenter1-600x900.jpg",
     "images": [
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/carpenter1-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/carpenter2-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/carpenter3-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/carpenter4-150x150.jpg"
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/carpenter1-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/carpenter2-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/carpenter3-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/carpenter4-600x900.jpg"
     ],
     "price": "$109.00",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "colors": [],
     "sizes": [],
+    "sku": "HA94E8",
     "categories": ["CARGO TROUSERS", "JEANS", "MEN", "PANTS"],
     "infomations": [
       "Quisque varius diam vel metus mattis, id aliquam diam rhoncus. Proin vitae magna in dui finibus malesuada et at nulla. Morbi elit ex, viverra vitae ante vel, blandit feugiat ligula. Fusce fermentum iaculis nibh, at sodales leo maximus a. Nullam ultricies sodales nunc, in pellentesque lorem mattis quis. Cras imperdiet est in nunc tristique lacinia. Nullam aliquam mauris eu accumsan tincidunt. Suspendisse velit ex, aliquet vel ornare vel, dignissim a tortor.",
@@ -1141,7 +1182,7 @@
       {
         "star": "4",
         "postedBy": "admin ",
-        "description": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+        "comment": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
       }
     ]
   },
@@ -1149,16 +1190,17 @@
     "productName": "Basic High-Neck Puff Jacket",
     "thumb": "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/basic1-600x900.jpeg",
     "images": [
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/basic1-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/basic2-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/basic3-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/basic4-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/basic5-150x150.jpeg"
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/basic1-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/basic2-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/basic3-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/basic4-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/basic5-600x900.jpeg"
     ],
     "price": "$89.00",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "colors": [],
     "sizes": [],
+    "sku": "SUAJK74",
     "categories": ["JACKETS & COATS", "OUTERWEAR", "WOMEN"],
     "infomations": [
       "Quisque varius diam vel metus mattis, id aliquam diam rhoncus. Proin vitae magna in dui finibus malesuada et at nulla. Morbi elit ex, viverra vitae ante vel, blandit feugiat ligula. Fusce fermentum iaculis nibh, at sodales leo maximus a. Nullam ultricies sodales nunc, in pellentesque lorem mattis quis. Cras imperdiet est in nunc tristique lacinia. Nullam aliquam mauris eu accumsan tincidunt. Suspendisse velit ex, aliquet vel ornare vel, dignissim a tortor.",
@@ -1168,7 +1210,7 @@
       {
         "star": "4",
         "postedBy": "admin ",
-        "description": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+        "comment": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
       }
     ]
   },
@@ -1176,15 +1218,16 @@
     "productName": "Short Nylon-Effect Puffer Jacket",
     "thumb": "https://klbtheme.com/clotya/wp-content/uploads/2022/04/nylon1-600x900.jpg",
     "images": [
-      "https://klbtheme.com/clotya/wp-content/uploads/2022/04/nylon1-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/nylon2-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/nylon3-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/nylon4-150x150.jpg"
+      "https://klbtheme.com/clotya/wp-content/uploads/2022/04/nylon1-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/nylon2-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/nylon3-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/nylon4-600x900.jpg"
     ],
     "price": "$29.90",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "colors": [],
     "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+    "sku": "SO4JK74",
     "categories": ["JACKETS & COATS", "OUTERWEAR", "WOMEN"],
     "infomations": [
       "Quisque varius diam vel metus mattis, id aliquam diam rhoncus. Proin vitae magna in dui finibus malesuada et at nulla. Morbi elit ex, viverra vitae ante vel, blandit feugiat ligula. Fusce fermentum iaculis nibh, at sodales leo maximus a. Nullam ultricies sodales nunc, in pellentesque lorem mattis quis. Cras imperdiet est in nunc tristique lacinia. Nullam aliquam mauris eu accumsan tincidunt. Suspendisse velit ex, aliquet vel ornare vel, dignissim a tortor.",
@@ -1194,12 +1237,12 @@
       {
         "star": "5",
         "postedBy": "admin ",
-        "description": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+        "comment": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
       },
       {
         "star": "4",
         "postedBy": "admin ",
-        "description": "Sed perspiciatis unde omnis iste natus error sit lorem voluptatem accusantium doloremque laudantium."
+        "comment": "Sed perspiciatis unde omnis iste natus error sit lorem voluptatem accusantium doloremque laudantium."
       }
     ]
   },
@@ -1207,15 +1250,16 @@
     "productName": "Quilted Bomber Jacket With Ribbed Trims",
     "thumb": "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/bomber1-1-600x900.jpg",
     "images": [
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/bomber1-1-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/bomber2-1-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/bomber3-1-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/bomber4-1-150x150.jpg"
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/bomber1-1-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/bomber2-1-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/bomber3-1-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/bomber4-1-600x900.jpg"
     ],
     "price": "$69.48",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "colors": [],
     "sizes": [],
+    "sku": "A9UKLA7",
     "categories": ["JACKETS & COATS", "MEN", "OUTERWEAR"],
     "infomations": [
       "Quisque varius diam vel metus mattis, id aliquam diam rhoncus. Proin vitae magna in dui finibus malesuada et at nulla. Morbi elit ex, viverra vitae ante vel, blandit feugiat ligula. Fusce fermentum iaculis nibh, at sodales leo maximus a. Nullam ultricies sodales nunc, in pellentesque lorem mattis quis. Cras imperdiet est in nunc tristique lacinia. Nullam aliquam mauris eu accumsan tincidunt. Suspendisse velit ex, aliquet vel ornare vel, dignissim a tortor.",
@@ -1225,7 +1269,7 @@
       {
         "star": "5",
         "postedBy": "admin ",
-        "description": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+        "comment": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
       }
     ]
   },
@@ -1233,15 +1277,16 @@
     "productName": "Oversize Hoodie With Zipper",
     "thumb": "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/zipper1-600x900.jpeg",
     "images": [
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/zipper1-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/zipper2-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/zipper3-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/zipper4-150x150.jpeg"
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/zipper1-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/zipper2-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/zipper3-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/zipper4-600x900.jpeg"
     ],
     "price": "$124.00",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "colors": [],
     "sizes": [],
+    "sku": "SHLK74",
     "categories": [
       "JACKETS & COATS",
       "MEN",
@@ -1256,7 +1301,7 @@
       {
         "star": "5",
         "postedBy": "admin ",
-        "description": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+        "comment": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
       }
     ]
   },
@@ -1264,15 +1309,16 @@
     "productName": "Oversize Faux Leather Biker Jacket",
     "thumb": "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/faux1-1-600x900.jpg",
     "images": [
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/faux1-1-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/faux2-1-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/faux3-1-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/faux4-1-150x150.jpg"
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/faux1-1-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/faux2-1-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/faux3-1-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/faux4-1-600x900.jpg"
     ],
     "price": "$78.00",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "colors": [],
     "sizes": [],
+    "sku": "S8KE789",
     "categories": ["JACKETS & COATS", "OUTERWEAR", "SUITS", "WOMEN"],
     "infomations": [
       "Quisque varius diam vel metus mattis, id aliquam diam rhoncus. Proin vitae magna in dui finibus malesuada et at nulla. Morbi elit ex, viverra vitae ante vel, blandit feugiat ligula. Fusce fermentum iaculis nibh, at sodales leo maximus a. Nullam ultricies sodales nunc, in pellentesque lorem mattis quis. Cras imperdiet est in nunc tristique lacinia. Nullam aliquam mauris eu accumsan tincidunt. Suspendisse velit ex, aliquet vel ornare vel, dignissim a tortor.",
@@ -1282,7 +1328,7 @@
       {
         "star": "5",
         "postedBy": "admin ",
-        "description": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+        "comment": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
       }
     ]
   },
@@ -1290,15 +1336,16 @@
     "productName": "Nylon Puffer Gilet",
     "thumb": "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/nylon1-600x900.jpeg",
     "images": [
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/nylon1-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/nylon2-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/nylon3-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/nylon4-150x150.jpeg"
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/nylon1-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/nylon2-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/nylon3-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/nylon4-600x900.jpeg"
     ],
     "price": "$1,399.00",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "colors": [],
     "sizes": [],
+    "sku": "ERKNE398",
     "categories": ["OUTERWEAR", "WOMEN"],
     "infomations": [
       "Quisque varius diam vel metus mattis, id aliquam diam rhoncus. Proin vitae magna in dui finibus malesuada et at nulla. Morbi elit ex, viverra vitae ante vel, blandit feugiat ligula. Fusce fermentum iaculis nibh, at sodales leo maximus a. Nullam ultricies sodales nunc, in pellentesque lorem mattis quis. Cras imperdiet est in nunc tristique lacinia. Nullam aliquam mauris eu accumsan tincidunt. Suspendisse velit ex, aliquet vel ornare vel, dignissim a tortor.",
@@ -1308,7 +1355,7 @@
       {
         "star": "4",
         "postedBy": "admin ",
-        "description": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+        "comment": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
       }
     ]
   },
@@ -1316,15 +1363,16 @@
     "productName": "Multicolored Open-Knit Crewneck Sweater",
     "thumb": "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/colored1-600x900.jpg",
     "images": [
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/colored1-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/colored2-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/colored3-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/colored4-150x150.jpg"
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/colored1-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/colored2-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/colored3-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/colored4-600x900.jpg"
     ],
     "price": "$65.90",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "colors": [],
     "sizes": [],
+    "sku": "TE75VGRT",
     "categories": ["OUTERWEAR", "SWEATSHIRTS & HOODIES", "WOMEN"],
     "infomations": [
       "Quisque varius diam vel metus mattis, id aliquam diam rhoncus. Proin vitae magna in dui finibus malesuada et at nulla. Morbi elit ex, viverra vitae ante vel, blandit feugiat ligula. Fusce fermentum iaculis nibh, at sodales leo maximus a. Nullam ultricies sodales nunc, in pellentesque lorem mattis quis. Cras imperdiet est in nunc tristique lacinia. Nullam aliquam mauris eu accumsan tincidunt. Suspendisse velit ex, aliquet vel ornare vel, dignissim a tortor.",
@@ -1334,7 +1382,7 @@
       {
         "star": "5",
         "postedBy": "admin ",
-        "description": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+        "comment": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
       }
     ]
   },
@@ -1342,15 +1390,16 @@
     "productName": "Hot Stuff Hoodie",
     "thumb": "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/stuff1-600x900.jpeg",
     "images": [
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/stuff1-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/stuff2-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/stuff3-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/stuff4-150x150.jpeg"
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/stuff1-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/stuff2-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/stuff3-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/stuff4-600x900.jpeg"
     ],
     "price": "$89.00",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "colors": [],
     "sizes": [],
+    "sku": "YAE4M79",
     "categories": [
       "OUTERWEAR",
       "SWEATSHIRTS & HOODIES",
@@ -1365,7 +1414,7 @@
       {
         "star": "4",
         "postedBy": "admin ",
-        "description": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+        "comment": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
       }
     ]
   },
@@ -1373,15 +1422,16 @@
     "productName": "Fuzzy Button-Up Cardigan",
     "thumb": "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/fuzzy1-600x900.jpg",
     "images": [
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/fuzzy1-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/fuzzy2-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/fuzzy3-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/fuzzy4-150x150.jpg"
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/fuzzy1-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/fuzzy2-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/fuzzy3-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/fuzzy4-600x900.jpg"
     ],
     "price": "$59.00",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "colors": [],
     "sizes": [],
+    "sku": "UJFVGRT",
     "categories": ["OUTERWEAR", "WOMEN"],
     "infomations": [
       "Quisque varius diam vel metus mattis, id aliquam diam rhoncus. Proin vitae magna in dui finibus malesuada et at nulla. Morbi elit ex, viverra vitae ante vel, blandit feugiat ligula. Fusce fermentum iaculis nibh, at sodales leo maximus a. Nullam ultricies sodales nunc, in pellentesque lorem mattis quis. Cras imperdiet est in nunc tristique lacinia. Nullam aliquam mauris eu accumsan tincidunt. Suspendisse velit ex, aliquet vel ornare vel, dignissim a tortor.",
@@ -1391,7 +1441,7 @@
       {
         "star": "5",
         "postedBy": "admin ",
-        "description": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+        "comment": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
       }
     ]
   },
@@ -1399,14 +1449,15 @@
     "productName": "Fluffy-knit Sweater",
     "thumb": "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/flufy-600x900.jpeg",
     "images": [
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/flufy-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/flufy2-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/flufy3-150x150.jpeg"
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/flufy-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/flufy2-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/flufy3-600x900.jpeg"
     ],
     "price": "$59.90",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "colors": [],
     "sizes": [],
+    "sku": "UK596A",
     "categories": ["OUTERWEAR", "SWEATSHIRTS & HOODIES", "WOMEN"],
     "infomations": [
       "Quisque varius diam vel metus mattis, id aliquam diam rhoncus. Proin vitae magna in dui finibus malesuada et at nulla. Morbi elit ex, viverra vitae ante vel, blandit feugiat ligula. Fusce fermentum iaculis nibh, at sodales leo maximus a. Nullam ultricies sodales nunc, in pellentesque lorem mattis quis. Cras imperdiet est in nunc tristique lacinia. Nullam aliquam mauris eu accumsan tincidunt. Suspendisse velit ex, aliquet vel ornare vel, dignissim a tortor.",
@@ -1416,7 +1467,7 @@
       {
         "star": "5",
         "postedBy": "admin ",
-        "description": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+        "comment": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
       }
     ]
   },
@@ -1424,15 +1475,16 @@
     "productName": "Double-Breasted Coat",
     "thumb": "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/breasted-600x900.jpeg",
     "images": [
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/breasted-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/breasted2-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/breasted3-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/breasted4-150x150.jpeg"
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/breasted-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/breasted2-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/breasted3-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/breasted4-600x900.jpeg"
     ],
     "price": "$779.00",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "colors": [],
     "sizes": [],
+    "sku": "PI4JK74",
     "categories": ["DRESSES", "JACKETS & COATS", "OUTERWEAR", "WOMEN"],
     "infomations": [
       "Quisque varius diam vel metus mattis, id aliquam diam rhoncus. Proin vitae magna in dui finibus malesuada et at nulla. Morbi elit ex, viverra vitae ante vel, blandit feugiat ligula. Fusce fermentum iaculis nibh, at sodales leo maximus a. Nullam ultricies sodales nunc, in pellentesque lorem mattis quis. Cras imperdiet est in nunc tristique lacinia. Nullam aliquam mauris eu accumsan tincidunt. Suspendisse velit ex, aliquet vel ornare vel, dignissim a tortor.",
@@ -1442,7 +1494,7 @@
       {
         "star": "5",
         "postedBy": "admin ",
-        "description": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+        "comment": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
       }
     ]
   },
@@ -1450,15 +1502,16 @@
     "productName": "Daisy Jacquard Knit Cardigan",
     "thumb": "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/cardigan1-600x900.jpg",
     "images": [
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/cardigan1-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/cardigan2-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/cardigan3-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/cardigan4-150x150.jpg"
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/cardigan1-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/cardigan2-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/cardigan3-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/cardigan4-600x900.jpg"
     ],
     "price": "$29.99",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "colors": [],
     "sizes": [],
+    "sku": "WKE45VGRT",
     "categories": ["DRESSES", "OUTERWEAR", "WOMEN"],
     "infomations": [
       "Quisque varius diam vel metus mattis, id aliquam diam rhoncus. Proin vitae magna in dui finibus malesuada et at nulla. Morbi elit ex, viverra vitae ante vel, blandit feugiat ligula. Fusce fermentum iaculis nibh, at sodales leo maximus a. Nullam ultricies sodales nunc, in pellentesque lorem mattis quis. Cras imperdiet est in nunc tristique lacinia. Nullam aliquam mauris eu accumsan tincidunt. Suspendisse velit ex, aliquet vel ornare vel, dignissim a tortor.",
@@ -1468,7 +1521,7 @@
       {
         "star": "5",
         "postedBy": "admin ",
-        "description": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+        "comment": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
       }
     ]
   },
@@ -1476,15 +1529,16 @@
     "productName": "Varsity Jacket With Patch Details",
     "thumb": "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/jacket1-600x900.jpg",
     "images": [
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/jacket1-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/jacket2-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/jacket3-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/jacket4-150x150.jpg"
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/jacket1-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/jacket2-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/jacket3-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/jacket4-600x900.jpg"
     ],
     "price": "$70.13",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "colors": [],
     "sizes": [],
+    "sku": "HEY7A5E",
     "categories": ["JACKETS & COATS", "OUTERWEAR", "WOMEN"],
     "infomations": [
       "Quisque varius diam vel metus mattis, id aliquam diam rhoncus. Proin vitae magna in dui finibus malesuada et at nulla. Morbi elit ex, viverra vitae ante vel, blandit feugiat ligula. Fusce fermentum iaculis nibh, at sodales leo maximus a. Nullam ultricies sodales nunc, in pellentesque lorem mattis quis. Cras imperdiet est in nunc tristique lacinia. Nullam aliquam mauris eu accumsan tincidunt. Suspendisse velit ex, aliquet vel ornare vel, dignissim a tortor.",
@@ -1494,7 +1548,7 @@
       {
         "star": "5",
         "postedBy": "admin ",
-        "description": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+        "comment": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
       }
     ]
   },
@@ -1502,15 +1556,16 @@
     "productName": "Loose-fit Jeans",
     "thumb": "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/loose1-600x900.jpg",
     "images": [
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/loose1-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/loose2-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/loose3-150x150.jpg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/loose4-150x150.jpg"
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/loose1-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/loose2-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/loose3-600x900.jpg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/loose4-600x900.jpg"
     ],
     "price": "$38.99",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "colors": [],
     "sizes": [],
+    "sku": "TG45VGRT",
     "categories": ["BELTS", "CARGO TROUSERS", "JEANS", "MEN"],
     "infomations": [
       "Quisque varius diam vel metus mattis, id aliquam diam rhoncus. Proin vitae magna in dui finibus malesuada et at nulla. Morbi elit ex, viverra vitae ante vel, blandit feugiat ligula. Fusce fermentum iaculis nibh, at sodales leo maximus a. Nullam ultricies sodales nunc, in pellentesque lorem mattis quis. Cras imperdiet est in nunc tristique lacinia. Nullam aliquam mauris eu accumsan tincidunt. Suspendisse velit ex, aliquet vel ornare vel, dignissim a tortor.",
@@ -1520,7 +1575,7 @@
       {
         "star": "4",
         "postedBy": "admin ",
-        "description": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+        "comment": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
       }
     ]
   },
@@ -1528,15 +1583,16 @@
     "productName": "Lightweight Zipped Bomber Jacket",
     "thumb": "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/zipped1-600x900.jpeg",
     "images": [
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/zipped1-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/zipped2-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/zipped3-150x150.jpeg",
-      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/zipped4-150x150.jpeg"
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/zipped1-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/zipped2-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/zipped3-600x900.jpeg",
+      "https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/zipped4-600x900.jpeg"
     ],
     "price": "$30.99",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "colors": [],
     "sizes": [],
+    "sku": "YHE4M7",
     "categories": ["BELTS", "JACKETS & COATS", "MEN"],
     "infomations": [
       "Quisque varius diam vel metus mattis, id aliquam diam rhoncus. Proin vitae magna in dui finibus malesuada et at nulla. Morbi elit ex, viverra vitae ante vel, blandit feugiat ligula. Fusce fermentum iaculis nibh, at sodales leo maximus a. Nullam ultricies sodales nunc, in pellentesque lorem mattis quis. Cras imperdiet est in nunc tristique lacinia. Nullam aliquam mauris eu accumsan tincidunt. Suspendisse velit ex, aliquet vel ornare vel, dignissim a tortor.",
@@ -1546,7 +1602,7 @@
       {
         "star": "5",
         "postedBy": "admin ",
-        "description": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+        "comment": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
       }
     ]
   }

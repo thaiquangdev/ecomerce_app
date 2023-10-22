@@ -1,19 +1,38 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./bestSeller.scss";
 import { Link } from "react-router-dom";
+import { useDispatch } from "react-redux";
 import ProductCard from "../productCard/ProductCard";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { getProducts } from "../../features/product/productSlice";
 const settings = {
   dots: true,
   infinite: true,
   speed: 500,
   slidesToShow: 4,
   slidesToScroll: 4,
+  autoplay: true,
+  autoplaySpeed: 5000,
 };
 
 const BestSeller = () => {
+  const dispatch = useDispatch();
+  const [bestSeller, setBestSeller] = useState([]);
+
+  const getAllProducts = async () => {
+    const products = await dispatch(getProducts());
+    const productSeller = products.payload.productData.filter(
+      (product) => product.sold > 50
+    );
+    setBestSeller(productSeller);
+  };
+  useEffect(() => {
+    getAllProducts();
+  }, []);
+
+  console.log(bestSeller);
   return (
     <div className="bestSeller">
       <div className="product">
@@ -29,24 +48,13 @@ const BestSeller = () => {
         <div className="product-content">
           <div className="row">
             <Slider {...settings}>
-              <div className="col-3">
-                <ProductCard />
-              </div>
-              <div className="col-3">
-                <ProductCard />
-              </div>
-              <div className="col-3">
-                <ProductCard />
-              </div>
-              <div className="col-3">
-                <ProductCard />
-              </div>
-              <div className="col-3">
-                <ProductCard />
-              </div>
-              <div className="col-3">
-                <ProductCard />
-              </div>
+              {bestSeller?.map((item) => {
+                return (
+                  <div className="col-3" key={item._id}>
+                    <ProductCard productData={item} />
+                  </div>
+                );
+              })}
             </Slider>
           </div>
         </div>

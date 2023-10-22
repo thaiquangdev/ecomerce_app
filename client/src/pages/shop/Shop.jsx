@@ -1,11 +1,24 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./shop.scss";
 import { sideBar } from "../../utils/data";
 import { Link } from "react-router-dom";
 import CustomInput from "../../components/customInput/CustomInput";
 import ProductCard from "../../components/productCard/ProductCard";
+import { getProducts } from "../../features/product/productSlice";
+import { useDispatch } from "react-redux";
 
 const Shop = () => {
+  const dispatch = useDispatch();
+  const [productData, setProductData] = useState([]);
+
+  const getAllProducts = async () => {
+    const products = await dispatch(getProducts());
+    const product = products.payload.productData;
+    setProductData(product);
+  };
+  useEffect(() => {
+    getAllProducts();
+  }, []);
   return (
     <div className="shop w-main">
       <div className="row">
@@ -238,42 +251,13 @@ const Shop = () => {
           </div>
           <div className="product-list">
             <div className="row">
-              <div className="col-3">
-                <ProductCard />
-              </div>
-              <div className="col-3">
-                <ProductCard />
-              </div>
-              <div className="col-3">
-                <ProductCard />
-              </div>
-              <div className="col-3">
-                <ProductCard />
-              </div>
-              <div className="col-3">
-                <ProductCard />
-              </div>
-              <div className="col-3">
-                <ProductCard />
-              </div>
-              <div className="col-3">
-                <ProductCard />
-              </div>
-              <div className="col-3">
-                <ProductCard />
-              </div>
-              <div className="col-3">
-                <ProductCard />
-              </div>
-              <div className="col-3">
-                <ProductCard />
-              </div>
-              <div className="col-3">
-                <ProductCard />
-              </div>
-              <div className="col-3">
-                <ProductCard />
-              </div>
+              {productData?.map((item) => {
+                return (
+                  <div className="col-3" key={item._id}>
+                    <ProductCard productData={item} />
+                  </div>
+                );
+              })}
             </div>
           </div>
           <div className="panigation">
