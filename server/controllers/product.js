@@ -57,7 +57,7 @@ const getProducts = asyncHandler(async (req, res) => {
 
     //panigation
     const page = req.query.page;
-    const limit = req.query.limit;
+    const limit = req.query.limit || 12;
     const skip = (page - 1) * limit;
     query = query.skip(skip).limit(limit);
     if (req.query.page) {
