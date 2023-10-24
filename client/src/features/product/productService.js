@@ -8,8 +8,16 @@ const getProducts = async () => {
   }
 };
 
+const getProductPanigates = async (page) => {
+  const rs = await axios.get(`${base_url}product/?page=${page}`);
+  if (rs.data) {
+    return rs.data;
+  }
+};
+
 const productService = {
   getProducts,
+  getProductPanigates,
 };
 
 export default productService;

@@ -1,0 +1,14 @@
+.productCategories {
+  ul {
+    li {
+      a {
+        font-size: 0.875rem;
+        color: var(--color-text);
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        margin-top: 8px;
+      }
+    }
+  }
+}

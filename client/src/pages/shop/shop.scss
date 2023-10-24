@@ -11,20 +11,6 @@
             margin-bottom: 1.1rem;
           }
         }
-        .content {
-          ul {
-            li {
-              a {
-                font-size: 0.875rem;
-                color: var(--color-text);
-                display: flex;
-                align-items: center;
-                gap: 15px;
-                margin-top: 8px;
-              }
-            }
-          }
-        }
       }
 
       .filter-price {
@@ -261,26 +247,32 @@
 
       .panigation {
         margin: 40px 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        ul {
+        .pagination {
           display: flex;
           align-items: center;
+          justify-content: center;
           gap: 5px;
-          li {
-            a {
-              background-color: var(--color-text);
-              color: #fff;
-              font-size: 0.875rem;
-              font-weight: 500;
-              display: flex;
-              align-items: center;
-              justify-content: center;
-              width: 2.25rem;
-              height: 2.25rem;
-              border: 1px solid var(--color-text);
+          cursor: pointer;
+
+          .page-item {
+            background: #fff;
+            color: #000;
+            border: 1px solid #000;
+            width: 2.25rem;
+            height: 2.25rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 500;
+            font-size: 0.875em;
+            &:hover {
+              opacity: 0.5;
             }
+          }
+          .active {
+            background: #000;
+            color: #fff;
+            border: 1px solid #000;
           }
         }
       }

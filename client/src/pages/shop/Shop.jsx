@@ -1,24 +1,45 @@
 import React, { useEffect, useState } from "react";
 import "./shop.scss";
-import { sideBar } from "../../utils/data";
 import { Link } from "react-router-dom";
 import CustomInput from "../../components/customInput/CustomInput";
 import ProductCard from "../../components/productCard/ProductCard";
-import { getProducts } from "../../features/product/productSlice";
+import { getProductPanigates } from "../../features/product/productSlice";
 import { useDispatch } from "react-redux";
+import ReactPaginate from "react-paginate";
+import { getProdCates } from "../../features/productCategories/prodCateSlice";
+import ProductCategories from "../../components/sideBar/productCategories/ProductCategories";
 
 const Shop = () => {
   const dispatch = useDispatch();
+  const [categoriesdata, setCategoriesData] = useState([]);
   const [productData, setProductData] = useState([]);
+  const [totalPage, setTotalPage] = useState(1);
 
-  const getAllProducts = async () => {
-    const products = await dispatch(getProducts());
-    const product = products.payload.productData;
-    setProductData(product);
+  const getProductPanigations = async (page) => {
+    const products = await dispatch(getProductPanigates(page));
+    if (products) {
+      setTotalPage(products.payload.numberOfPages);
+      const product = products.payload.productData;
+      setProductData(product);
+    }
   };
+
+  const getProductCategories = async () => {
+    const products = await dispatch(getProdCates());
+    if (products) {
+      setCategoriesData(products.payload.getPcategories);
+    }
+  };
+
   useEffect(() => {
-    getAllProducts();
+    getProductPanigations(1);
+    getProductCategories();
   }, []);
+
+  const handlePageClick = (event) => {
+    getProductPanigations(Number(event.selected) + 1);
+  };
+
   return (
     <div className="shop w-main">
       <div className="row">
@@ -26,20 +47,9 @@ const Shop = () => {
           <div className="product-categories">
             <div className="title">
               <h4>Product Categories</h4>
-            </div>
-            <div className="content">
-              <ul>
-                {sideBar.map((item, index) => {
-                  return (
-                    <li key={index}>
-                      <Link to={item.path}>
-                        <CustomInput type="checkbox" />
-                        <label htmlFor="">{item.title}</label>
-                      </Link>
-                    </li>
-                  );
-                })}
-              </ul>
+              <div className="content">
+                <ProductCategories data={categoriesdata} />
+              </div>
             </div>
           </div>
           <div className="filter-price">
@@ -261,22 +271,25 @@ const Shop = () => {
             </div>
           </div>
           <div className="panigation">
-            <ul>
-              <li>
-                <Link to="#">1</Link>
-              </li>
-              <li>
-                <Link to="#">2</Link>
-              </li>
-              <li>
-                <Link to="#">3</Link>
-              </li>
-              <li>
-                <Link to="#">
-                  <ion-icon name="arrow-forward-outline"></ion-icon>
-                </Link>
-              </li>
-            </ul>
+            <ReactPaginate
+              breakLabel="..."
+              nextLabel=">"
+              onPageChange={handlePageClick}
+              pageRangeDisplayed={3}
+              pageCount={totalPage}
+              previousLabel="<"
+              pageClassName="page-item"
+              pageLinkClassName="page-link"
+              previousClassName="page-item"
+              previousLinkClassName="page-link"
+              nextClassName="page-item"
+              nextLinkClassName="page-link"
+              breakClassName="page-item"
+              breakLinkClassName="page-link"
+              containerClassName="pagination"
+              activeClassName="active"
+              renderOnZeroPageCount={null}
+            />
           </div>
         </div>
       </div>

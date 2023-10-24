@@ -32,7 +32,6 @@ const BestSeller = () => {
     getAllProducts();
   }, []);
 
-  console.log(bestSeller);
   return (
     <div className="bestSeller">
       <div className="product">
