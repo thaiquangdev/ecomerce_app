@@ -1,97 +1,65 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./singleProduct.scss";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import CustomInput from "../../components/customInput/CustomInput";
 import ProductCard from "../../components/productCard/ProductCard";
+import { useDispatch, useSelector } from "react-redux";
+import { getProduct } from "../../features/product/productSlice";
 
 const SingleProduct = () => {
+  const location = useLocation();
+  const getProductId = location.pathname.split("/")[2];
+  const dispatch = useDispatch();
+  const productState = useSelector(
+    (state) => state.product.products.productData
+  );
+  console.log(productState);
+  useEffect(() => {
+    dispatch(getProduct(getProductId));
+  }, []);
+
+  // hien thi so sao
+  const star = productState.ratings.star;
+  const starIcons = [];
+  for (let i = 1; i <= star; i++) {
+    starIcons.push(<ion-icon name="star" key={i}></ion-icon>);
+  }
+
   return (
     <div className="singleProduct w-main">
       <div className="row">
         <div className="col-9">
           <div className="col-6 product-image">
             <div className="image">
-              <img src="/pants1.jpeg" alt="" />
+              <img src={productState.images[0]} alt="" />
             </div>
           </div>
           <div className="col-6 product-content">
-            <h1>Basic Colored Sweatpants With Elastic Hems</h1>
+            <h1>{productState.title}</h1>
             <div className="review">
-              <div className="star">
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-              </div>
-              <p>2 reviews</p>
+              <div className="star">{starIcons}</div>
+              <p>{productState.ratings.length} reviews</p>
             </div>
             <span>
-              <del>$25.90</del> $19.90
+              {/* <del>$25.90</del> $19.90 */}
+              {productState.price}
             </span>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-            <span className="color">Color: Black</span>
+            <p>{productState.description}</p>
+            <span className="color" style={{}}></span>
             <div className="color-list">
               <ul>
-                <li>
-                  <span
-                    style={{ backgroundColor: "#9f1435" }}
-                    className="color-text"
-                  >
-                    Apple Red
-                  </span>
-                </li>
-                <li>
-                  <span
-                    style={{ backgroundColor: "#9f1435" }}
-                    className="color-text"
-                  >
-                    Apple Red
-                  </span>
-                </li>
-                <li>
-                  <span
-                    style={{ backgroundColor: "#9f1435" }}
-                    className="color-text"
-                  >
-                    Apple Red
-                  </span>
-                </li>
-                <li>
-                  <span
-                    style={{ backgroundColor: "#9f1435" }}
-                    className="color-text"
-                  >
-                    Apple Red
-                  </span>
-                </li>
-                <li>
-                  <span
-                    style={{ backgroundColor: "#9f1435" }}
-                    className="color-text"
-                  >
-                    Apple Red
-                  </span>
-                </li>
-                <li>
-                  <span
-                    style={{ backgroundColor: "#9f1435" }}
-                    className="color-text"
-                  >
-                    Apple Red
-                  </span>
-                </li>
-                <li>
-                  <span
-                    style={{ backgroundColor: "#9f1435" }}
-                    className="color-text"
-                  >
-                    Apple Red
-                  </span>
-                </li>
+                {productState?.colors.map((item) => {
+                  return (
+                    <li key={item?._id}>
+                      <span
+                        style={{ backgroundColor: item?.style }}
+                        className="color-text"
+                      >
+                        {item?.title}
+                      </span>
+                    </li>
+                  );
+                })}
               </ul>
             </div>
             <span className="size">Size: M</span>

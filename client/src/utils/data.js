@@ -171,3 +171,38 @@ export const widget = [
     image: "/banner-03.jpg",
   },
 ];
+
+export const colors = [
+  { style: "#9f1435", title: "Apple Red" },
+  { style: "#003080", title: "Bio Blue" },
+  { style: "#e1955b", title: "Sweet Orange" },
+  { style: "#6e94bb", title: "Blue" },
+  { style: "#016243", title: "Green" },
+  { style: "#e2939a", title: "Pink" },
+  { style: "#000000", title: "Black" },
+  { style: "#e4e4e6", title: "White" },
+];
+
+export const sizes = [
+  {
+    title: "XXS",
+  },
+  {
+    title: "XS",
+  },
+  {
+    title: "S",
+  },
+  {
+    title: "M",
+  },
+  {
+    title: "L",
+  },
+  {
+    title: "XL",
+  },
+  {
+    title: "XXL",
+  },
+];

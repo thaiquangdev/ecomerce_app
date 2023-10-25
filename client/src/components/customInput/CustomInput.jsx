@@ -9,6 +9,7 @@ const CustomInput = ({
   val,
   onCh,
   onBl,
+  oncl,
   classN,
 }) => {
   return (
@@ -20,6 +21,7 @@ const CustomInput = ({
       value={val}
       onChange={onCh}
       onBlur={onBl}
+      onClick={oncl}
       className={classN}
     />
   );

@@ -8,6 +8,13 @@ const getProducts = async () => {
   }
 };
 
+const getProduct = async (id) => {
+  const rs = await axios.get(`${base_url}product/${id}`);
+  if (rs.data) {
+    return rs.data;
+  }
+};
+
 const getProductPanigates = async (page) => {
   const rs = await axios.get(`${base_url}product/?page=${page}`);
   if (rs.data) {
@@ -17,6 +24,7 @@ const getProductPanigates = async (page) => {
 
 const productService = {
   getProducts,
+  getProduct,
   getProductPanigates,
 };
 

@@ -8,6 +8,8 @@ import { useDispatch } from "react-redux";
 import ReactPaginate from "react-paginate";
 import { getProdCates } from "../../features/productCategories/prodCateSlice";
 import ProductCategories from "../../components/sideBar/productCategories/ProductCategories";
+import Colors from "../../components/sideBar/colors/Colors";
+import Sizes from "../../components/sideBar/sizes/Sizes";
 
 const Shop = () => {
   const dispatch = useDispatch();
@@ -72,78 +74,7 @@ const Shop = () => {
               <h4>Filter by Color</h4>
             </div>
             <div className="content">
-              <ul>
-                <li>
-                  <div className="color-type">
-                    <span className="color"></span>
-                    <Link to="#">Apple Red</Link>
-                  </div>
-                  <span className="count">(9)</span>
-                </li>
-                <li>
-                  <div className="color-type">
-                    <span className="color"></span>
-                    <Link to="#">Apple Red</Link>
-                  </div>
-                  <span className="count">(9)</span>
-                </li>
-                <li>
-                  <div className="color-type">
-                    <span className="color"></span>
-                    <Link to="#">Apple Red</Link>
-                  </div>
-                  <span className="count">(9)</span>
-                </li>
-                <li>
-                  <div className="color-type">
-                    <span className="color"></span>
-                    <Link to="#">Apple Red</Link>
-                  </div>
-                  <span className="count">(9)</span>
-                </li>
-                <li>
-                  <div className="color-type">
-                    <span className="color"></span>
-                    <Link to="#">Apple Red</Link>
-                  </div>
-                  <span className="count">(9)</span>
-                </li>
-                <li>
-                  <div className="color-type">
-                    <span className="color"></span>
-                    <Link to="#">Apple Red</Link>
-                  </div>
-                  <span className="count">(9)</span>
-                </li>
-                <li>
-                  <div className="color-type">
-                    <span className="color"></span>
-                    <Link to="#">Apple Red</Link>
-                  </div>
-                  <span className="count">(9)</span>
-                </li>
-                <li>
-                  <div className="color-type">
-                    <span className="color"></span>
-                    <Link to="#">Apple Red</Link>
-                  </div>
-                  <span className="count">(9)</span>
-                </li>
-                <li>
-                  <div className="color-type">
-                    <span className="color"></span>
-                    <Link to="#">Apple Red</Link>
-                  </div>
-                  <span className="count">(9)</span>
-                </li>
-                <li>
-                  <div className="color-type">
-                    <span className="color"></span>
-                    <Link to="#">Apple Red</Link>
-                  </div>
-                  <span className="count">(9)</span>
-                </li>
-              </ul>
+              <Colors />
             </div>
           </div>
           <div className="filter-size">
@@ -151,59 +82,7 @@ const Shop = () => {
               <h4>Filter by Size</h4>
             </div>
             <div className="content">
-              <div className="content">
-                <ul>
-                  <li>
-                    <div className="size-type">
-                      <CustomInput type="checkbox" classN="input" />
-                      <span>XXS</span>
-                    </div>
-                    <span className="count">(10)</span>
-                  </li>
-                  <li>
-                    <div className="size-type">
-                      <CustomInput type="checkbox" classN="input" />
-                      <span>XXS</span>
-                    </div>
-                    <span className="count">(10)</span>
-                  </li>
-                  <li>
-                    <div className="size-type">
-                      <CustomInput type="checkbox" classN="input" />
-                      <span>XXS</span>
-                    </div>
-                    <span className="count">(10)</span>
-                  </li>
-                  <li>
-                    <div className="size-type">
-                      <CustomInput type="checkbox" classN="input" />
-                      <span>XXS</span>
-                    </div>
-                    <span className="count">(10)</span>
-                  </li>
-                  <li>
-                    <div className="size-type">
-                      <CustomInput type="checkbox" classN="input" />
-                      <span>XXS</span>
-                    </div>
-                    <span className="count">(10)</span>
-                  </li>
-                  <li>
-                    <div className="size-type">
-                      <CustomInput type="checkbox" classN="input" />
-                      <span>XXS</span>
-                    </div>
-                    <span className="count">(10)</span>
-                  </li>
-                  <li>
-                    <div className="size-type">
-                      <CustomInput type="checkbox" classN="input" />
-                      <span>XXS</span>
-                    </div>
-                    <span className="count">(10)</span>
-                  </li>
-                </ul>
-              </div>
+              <Sizes />
             </div>
           </div>
           <div className="product-status">

@@ -1,0 +1,25 @@
+.size {
+  ul {
+    li {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 6px;
+      .size-type {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        span {
+          font-size: 0.875rem;
+          color: var(--color-text);
+        }
+      }
+      .count {
+        font-size: 0.8125rem;
+        line-height: 25px;
+        color: #9aa5b3;
+      }
+    }
+  }
+}

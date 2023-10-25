@@ -1,0 +1,30 @@
+.color {
+  ul {
+    li {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 6px;
+      .color-type {
+        display: flex;
+        align-items: center;
+
+        .color {
+          width: 20px;
+          height: 20px;
+          border-radius: 50%;
+          margin-right: 10px;
+        }
+        a {
+          font-size: 0.875rem;
+          color: var(--color-text);
+        }
+      }
+      .count {
+        font-size: 0.8125rem;
+        line-height: 25px;
+        color: #9aa5b3;
+      }
+    }
+  }
+}

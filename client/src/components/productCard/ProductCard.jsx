@@ -1,12 +1,13 @@
 import React from "react";
 import "./productCard.scss";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const ProductCard = (props) => {
+  const navigate = useNavigate();
   const { productData } = props;
   return (
     <div className="card">
-      <Link to="/product/:id">
+      <Link to={`/product/${productData?._id}`}>
         <div className="card-img">
           <img src={productData?.images[0]} alt="" className="img-product" />
           <img
