@@ -17,8 +17,8 @@ const Shop = () => {
   const [productData, setProductData] = useState([]);
   const [totalPage, setTotalPage] = useState(1);
 
-  const getProductPanigations = async (page) => {
-    const products = await dispatch(getProductPanigates(page));
+  const getProductPanigations = async ({ page, limit }) => {
+    const products = await dispatch(getProductPanigates({ page, limit }));
     if (products) {
       setTotalPage(products.payload.numberOfPages);
       const product = products.payload.productData;
@@ -34,7 +34,7 @@ const Shop = () => {
   };
 
   useEffect(() => {
-    getProductPanigations(1);
+    getProductPanigations({ page: 1, limit: 12 });
     getProductCategories();
   }, []);
 

@@ -25,9 +25,9 @@ export const getProduct = createAsyncThunk(
 
 export const getProductPanigates = createAsyncThunk(
   "product/getProductPanigates",
-  async (page, thunkAPI) => {
+  async ({ page, limit }, thunkAPI) => {
     try {
-      return await productService.getProductPanigates(page);
+      return await productService.getProductPanigates(page, limit);
     } catch (error) {
       return thunkAPI.rejectWithValue(error);
     }

@@ -14,6 +14,7 @@ const fn = async (product) => {
     price: parseFloat(product?.price?.replace("$", "")),
     category: product?.categories,
     sizes: product?.sizes,
+    tags: product?.tags,
     quantity: Math.round(Math.random() * 1000),
     sold: Math.round(Math.random() * 100),
     images: product?.images,

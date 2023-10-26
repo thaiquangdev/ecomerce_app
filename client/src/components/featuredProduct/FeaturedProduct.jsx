@@ -24,10 +24,10 @@ const FeaturedProduct = () => {
 
   const getAllProducts = async () => {
     const products = await dispatch(getProducts());
-    const productSeller = products.payload.productData.filter(
-      (product) => product.price > 50
+    const productFeature = products.payload.productData.filter((product) =>
+      product.tags.some((tag) => tag === "featured-product")
     );
-    setFeaturedProduct(productSeller);
+    setFeaturedProduct(productFeature);
   };
   useEffect(() => {
     getAllProducts();

@@ -23,8 +23,8 @@ const BestSeller = () => {
 
   const getAllProducts = async () => {
     const products = await dispatch(getProducts());
-    const productSeller = products.payload.productData.filter(
-      (product) => product.sold > 50
+    const productSeller = products.payload.productData.filter((product) =>
+      product.tags.some((tag) => tag === "best-seller")
     );
     setBestSeller(productSeller);
   };

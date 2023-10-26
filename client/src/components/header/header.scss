@@ -28,6 +28,7 @@
 
         ion-icon {
           font-size: 20px;
+          color: #000;
         }
       }
 
@@ -51,8 +52,10 @@
         outline: none;
         padding-right: 50px;
         height: 47px;
+        width: auto;
         font-size: 15px;
         font-weight: 300;
+        padding: 0 30px;
       }
     }
   }
@@ -61,8 +64,11 @@
     display: flex;
     align-items: center;
     gap: 20px;
-    ion-icon {
-      font-size: 20px;
+    a {
+      ion-icon {
+        font-size: 25px;
+        color: #000;
+      }
     }
 
     .header-cart {
@@ -70,8 +76,11 @@
         font-size: 12px;
         font-weight: 400;
       }
-      ion-icon {
-        font-size: 20px;
+      a {
+        ion-icon {
+          font-size: 25px;
+          color: #000;
+        }
       }
     }
   }

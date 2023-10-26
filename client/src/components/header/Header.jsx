@@ -23,14 +23,20 @@ const Header = () => {
         </div>
         <div className="header-button">
           <div>
-            <ion-icon name="person-outline"></ion-icon>
+            <Link to="#">
+              <ion-icon name="person-outline"></ion-icon>
+            </Link>
           </div>
           <div>
-            <ion-icon name="heart-outline"></ion-icon>
+            <Link to="/wishlist">
+              <ion-icon name="heart-outline"></ion-icon>
+            </Link>
           </div>
           <div className="header-cart">
             <span>$0.00</span>
-            <ion-icon name="cart-outline"></ion-icon>
+            <Link to="/cart">
+              <ion-icon name="cart-outline"></ion-icon>
+            </Link>
           </div>
         </div>
       </div>

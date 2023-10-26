@@ -15,8 +15,8 @@ const getProduct = async (id) => {
   }
 };
 
-const getProductPanigates = async (page) => {
-  const rs = await axios.get(`${base_url}product/?page=${page}`);
+const getProductPanigates = async (page, limit) => {
+  const rs = await axios.get(`${base_url}product/?page=${page}&limit=${limit}`);
   if (rs.data) {
     return rs.data;
   }
