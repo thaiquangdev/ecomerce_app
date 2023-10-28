@@ -18,20 +18,7 @@ const settings = {
   autoplaySpeed: 5000,
 };
 
-const FeaturedProduct = () => {
-  const dispatch = useDispatch();
-  const [featuredProduct, setFeaturedProduct] = useState([]);
-
-  const getAllProducts = async () => {
-    const products = await dispatch(getProducts());
-    const productFeature = products.payload.productData.filter((product) =>
-      product.tags.some((tag) => tag === "featured-product")
-    );
-    setFeaturedProduct(productFeature);
-  };
-  useEffect(() => {
-    getAllProducts();
-  }, []);
+const FeaturedProduct = ({ data }) => {
   return (
     <div className="featuredProduct">
       <div className="header">
@@ -50,7 +37,7 @@ const FeaturedProduct = () => {
       <div className="content">
         <div className="row">
           <Slider {...settings}>
-            {featuredProduct?.map((item) => {
+            {data?.map((item) => {
               return (
                 <div className="col-3" key={item._id}>
                   <ProductCard productData={item} />

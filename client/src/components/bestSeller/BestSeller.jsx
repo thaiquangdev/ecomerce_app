@@ -17,21 +17,7 @@ const settings = {
   autoplaySpeed: 5000,
 };
 
-const BestSeller = () => {
-  const dispatch = useDispatch();
-  const [bestSeller, setBestSeller] = useState([]);
-
-  const getAllProducts = async () => {
-    const products = await dispatch(getProducts());
-    const productSeller = products.payload.productData.filter((product) =>
-      product.tags.some((tag) => tag === "best-seller")
-    );
-    setBestSeller(productSeller);
-  };
-  useEffect(() => {
-    getAllProducts();
-  }, []);
-
+const BestSeller = ({ data }) => {
   return (
     <div className="bestSeller">
       <div className="product">
@@ -47,7 +33,7 @@ const BestSeller = () => {
         <div className="product-content">
           <div className="row">
             <Slider {...settings}>
-              {bestSeller?.map((item) => {
+              {data?.map((item) => {
                 return (
                   <div className="col-3" key={item._id}>
                     <ProductCard productData={item} />

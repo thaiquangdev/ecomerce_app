@@ -1,7 +1,6 @@
 .card {
   padding: 0 15px;
-  position: relative;
-  overflow: hidden;
+
   &:hover {
     .card-img {
       .img-product {
@@ -10,15 +9,16 @@
       .img-product-hover {
         display: block;
       }
-    }
-    .product-button {
-      right: 25px;
-      transition: 0.3s;
+      .product-button {
+        right: 10px;
+        transition: 0.3s;
+      }
     }
   }
   a {
     color: var(--color-text);
     .card-img {
+      overflow: hidden;
       position: relative;
       .img-product {
         width: 100%;
@@ -33,6 +33,42 @@
         object-fit: contain;
 
         transition: display 0.3s;
+      }
+      .product-button {
+        position: absolute;
+        top: 8px;
+        right: -40px;
+        transition: right 0.3s ease-in-out;
+        ul {
+          li {
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 34px;
+            width: 34px;
+            border-radius: 50%;
+            background-color: var(--color-background);
+            margin-bottom: 10px;
+            &:hover {
+              background-color: var(--color-primary);
+              a {
+                ion-icon {
+                  color: var(--color-background);
+                }
+              }
+            }
+            a {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              ion-icon {
+                font-size: 1.2rem;
+                color: var(--color-text);
+              }
+            }
+          }
+        }
       }
     }
     .card-content {
@@ -58,43 +94,6 @@
           font-size: 94%;
           font-weight: 400;
           opacity: 0.3;
-        }
-      }
-    }
-
-    .product-button {
-      position: absolute;
-      top: 8px;
-      right: -30px;
-      transition: right 0.3s ease-in-out;
-      ul {
-        li {
-          cursor: pointer;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          height: 34px;
-          width: 34px;
-          border-radius: 50%;
-          background-color: var(--color-background);
-          margin-bottom: 10px;
-          &:hover {
-            background-color: var(--color-primary);
-            a {
-              ion-icon {
-                color: var(--color-background);
-              }
-            }
-          }
-          a {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            ion-icon {
-              font-size: 1.2rem;
-              color: var(--color-text);
-            }
-          }
         }
       }
     }

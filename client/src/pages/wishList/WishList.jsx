@@ -1,10 +1,15 @@
 import React from "react";
 import "./wishList.scss";
 import CustomInput from "../../components/customInput/CustomInput";
+import { sosial } from "../../utils/data";
+import { Link } from "react-router-dom";
 
 const WishList = () => {
   return (
     <div className="wishlist w-main">
+      <div className="title">
+        <h2>Default wishlist</h2>
+      </div>
       <table>
         <thead>
           <tr className="header">
@@ -55,27 +60,41 @@ const WishList = () => {
         </tbody>
         <tfoot>
           <tr>
-            <td className="footer">
-              <div className="action">
-                <select name="" id="">
-                  <option value="actions">Actions</option>
-                </select>
-                <button className="btn" type="submit">
-                  Apply Action
-                </button>
-              </div>
-              <div className="add-to-cart">
-                <button on className="btn" type="submit">
-                  Add Selected to Cart
-                </button>
-                <button className="btn" type="submit">
-                  Add All to Cart
-                </button>
+            <td colSpan={100}>
+              <div className="footer">
+                <div className="action">
+                  <select name="" id="">
+                    <option value="actions">Actions</option>
+                  </select>
+                  <button className="btn" type="submit">
+                    Apply Action
+                  </button>
+                </div>
+                <div className="add-to-cart">
+                  <button on className="btn" type="submit">
+                    Add Selected to Cart
+                  </button>
+                  <button className="btn" type="submit">
+                    Add All to Cart
+                  </button>
+                </div>
               </div>
             </td>
           </tr>
         </tfoot>
       </table>
+      <div className="share-sosial">
+        <span>Share on</span>
+        <ul>
+          {sosial.map((item, index) => {
+            return (
+              <li>
+                <Link>{item.title}</Link>
+              </li>
+            );
+          })}
+        </ul>
+      </div>
     </div>
   );
 };

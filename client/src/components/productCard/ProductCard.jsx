@@ -15,6 +15,30 @@ const ProductCard = (props) => {
             alt=""
             className="img-product-hover"
           />
+          <div className="product-button">
+            <ul>
+              <li>
+                <Link to="/whistlist">
+                  <ion-icon name="heart-outline"></ion-icon>
+                </Link>
+              </li>
+              <li>
+                <Link to="/compare">
+                  <ion-icon name="expand-outline"></ion-icon>
+                </Link>
+              </li>
+              <li>
+                <Link to="/zoom">
+                  <ion-icon name="swap-horizontal-outline"></ion-icon>
+                </Link>
+              </li>
+              <li>
+                <Link to="#/cart">
+                  <ion-icon name="cart-outline"></ion-icon>
+                </Link>
+              </li>
+            </ul>
+          </div>
         </div>
         <div className="card-content">
           <p>
@@ -25,30 +49,6 @@ const ProductCard = (props) => {
           <span>
             {/* <del>$25.90</del> $19.90 */}${productData?.price}
           </span>
-        </div>
-        <div className="product-button">
-          <ul>
-            <li>
-              <Link to="/whistlist">
-                <ion-icon name="heart-outline"></ion-icon>
-              </Link>
-            </li>
-            <li>
-              <Link to="/compare">
-                <ion-icon name="expand-outline"></ion-icon>
-              </Link>
-            </li>
-            <li>
-              <Link to="/zoom">
-                <ion-icon name="swap-horizontal-outline"></ion-icon>
-              </Link>
-            </li>
-            <li>
-              <Link to="#/cart">
-                <ion-icon name="cart-outline"></ion-icon>
-              </Link>
-            </li>
-          </ul>
         </div>
       </Link>
     </div>

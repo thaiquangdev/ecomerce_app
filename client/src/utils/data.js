@@ -206,3 +206,19 @@ export const sizes = [
     title: "XXL",
   },
 ];
+
+export const sosial = [
+  {
+    title: <ion-icon name="logo-facebook"></ion-icon>,
+  },
+  { title: <ion-icon name="logo-twitter"></ion-icon> },
+  {
+    title: <ion-icon name="logo-whatsapp"></ion-icon>,
+  },
+  {
+    title: <ion-icon name="copy-outline"></ion-icon>,
+  },
+  {
+    title: <ion-icon name="mail"></ion-icon>,
+  },
+];

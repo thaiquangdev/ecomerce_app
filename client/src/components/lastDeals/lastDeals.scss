@@ -1,0 +1,31 @@
+.lastDeals {
+  padding-top: 1.2rem;
+  .row {
+    .col-12 {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      h3 {
+        font-size: 1.875rem;
+        font-weight: 500;
+      }
+      p {
+        font-size: 1.025rem;
+        font-weight: 300;
+        color: var(--color-text-des);
+        text-align: left;
+        margin-bottom: 20px;
+      }
+    }
+    .content {
+      display: flex;
+      flex-wrap: wrap;
+      padding-top: 20px;
+      margin-left: -20px;
+      margin-right: -20px;
+      .col-6 {
+        padding: 0 20px 20px 20px;
+      }
+    }
+  }
+}
