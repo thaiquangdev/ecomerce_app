@@ -22,10 +22,43 @@ const getProductPanigates = async (page, limit) => {
   }
 };
 
+const filter = async (
+  page,
+  limit,
+  category,
+  colors,
+  sizes,
+  priceMin,
+  priceMax
+) => {
+  let apiUrl = `${base_url}product/?page=${page}&limit=${limit}&`;
+  if (category !== null) {
+    apiUrl += `category=${category}&`;
+  }
+  if (colors !== null) {
+    apiUrl += `colors=${colors}&`;
+  }
+  if (sizes !== null) {
+    apiUrl += `sizes=${sizes}&`;
+  }
+  if (priceMin !== null) {
+    apiUrl += `price[gte]=${priceMin}&`;
+  }
+  if (priceMax !== null) {
+    apiUrl += `price[gte]=${priceMax}&`;
+  }
+  apiUrl = apiUrl.slice(0, -1);
+  const rs = await axios.get(apiUrl);
+  if (rs.data) {
+    return rs.data;
+  }
+};
+
 const productService = {
   getProducts,
   getProduct,
   getProductPanigates,
+  filter,
 };
 
 export default productService;

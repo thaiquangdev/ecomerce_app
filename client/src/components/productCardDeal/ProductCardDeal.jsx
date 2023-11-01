@@ -3,13 +3,12 @@ import "./productCardDeal.scss";
 import { Link } from "react-router-dom";
 
 const ProductCardDeal = ({ data }) => {
-  const stars = [];
-  const starCount = Number(data?.ratings?.star);
-  console.log(starCount);
-  for (let i = 0; i < starCount; i++) {
-    stars.push(<ion-icon name="star" key={i}></ion-icon>);
-  }
-  console.log(stars);
+  // const stars = [];
+  // const ratings = data?.ratings.star;
+  // for (let i = 0; i < starCount; i++) {
+  //   stars.push(<ion-icon name="star" key={i}></ion-icon>);
+  // }
+  // console.log(ratings);
   return (
     <div className="productCardDeal">
       <Link to={`/product/${data?._id}`}>

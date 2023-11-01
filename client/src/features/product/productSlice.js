@@ -34,6 +34,28 @@ export const getProductPanigates = createAsyncThunk(
   }
 );
 
+export const filterProduct = createAsyncThunk(
+  "product/getProductFilter",
+  async (
+    { page, limit, category, colors, sizes, priceMin, priceMax },
+    thunkAPI
+  ) => {
+    try {
+      return await productService.filter(
+        page,
+        limit,
+        category,
+        colors,
+        sizes,
+        priceMin,
+        priceMax
+      );
+    } catch (error) {
+      return thunkAPI.rejectWithValue(error);
+    }
+  }
+);
+
 const initialState = {
   products: "",
   isLoading: false,
@@ -88,6 +110,21 @@ export const productSlice = createSlice({
         state.products = action.payload;
       })
       .addCase(getProductPanigates.rejected, (state, action) => {
+        state.isLoading = false;
+        state.isError = true;
+        state.isSuccess = false;
+        state.message = action.error;
+      })
+      .addCase(filterProduct.pending, (state) => {
+        state.isLoading = true;
+      })
+      .addCase(filterProduct.fulfilled, (state, action) => {
+        state.isLoading = false;
+        state.isError = false;
+        state.isSuccess = true;
+        state.products = action.payload;
+      })
+      .addCase(filterProduct.rejected, (state, action) => {
         state.isLoading = false;
         state.isError = true;
         state.isSuccess = false;

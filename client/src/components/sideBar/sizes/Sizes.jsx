@@ -3,14 +3,20 @@ import "./sizes.scss";
 import CustomInput from "../../customInput/CustomInput";
 import { sizes } from "../../../utils/data";
 
-const Sizes = () => {
+const Sizes = ({ setSizesfilter }) => {
+  const handleClick = (e) => {
+    setSizesfilter(e);
+  };
   return (
     <div className="size">
       <ul>
         {sizes.map((item, index) => {
           return (
             <li key={index}>
-              <div className="size-type">
+              <div
+                className="size-type"
+                onClick={() => handleClick(item.title)}
+              >
                 <CustomInput type="checkbox" classN="input" />
                 <span>{item.title}</span>
               </div>

@@ -62,6 +62,7 @@ const getProducts = asyncHandler(async (req, res) => {
     const limit = req.query.limit;
     const skip = (page - 1) * limit;
     const productCount = await Product.countDocuments();
+    const numberOfPages = Math.ceil(productCount / limit);
     query = query.skip(skip).limit(limit);
     if (req.query.page) {
       if (skip > productCount) {
@@ -72,7 +73,7 @@ const getProducts = asyncHandler(async (req, res) => {
     return res.status(200).json({
       success: response ? true : false,
       currentPage: page,
-      numberOfPages: Math.ceil(productCount / limit),
+      numberOfPages: numberOfPages,
       productData: response ? response : "can not get all product",
     });
   } catch (error) {

@@ -3,7 +3,10 @@ import "./shop.scss";
 import { Link } from "react-router-dom";
 import CustomInput from "../../components/customInput/CustomInput";
 import ProductCard from "../../components/productCard/ProductCard";
-import { getProductPanigates } from "../../features/product/productSlice";
+import {
+  filterProduct,
+  getProductPanigates,
+} from "../../features/product/productSlice";
 import { useDispatch } from "react-redux";
 import ReactPaginate from "react-paginate";
 import { getProdCates } from "../../features/productCategories/prodCateSlice";
@@ -16,9 +19,43 @@ const Shop = () => {
   const [categoriesdata, setCategoriesData] = useState([]);
   const [productData, setProductData] = useState([]);
   const [totalPage, setTotalPage] = useState(1);
+  const [page, setPage] = useState(1);
+  const [limit, setLimit] = useState(12);
+  const [categoryfilter, setCategoryfilter] = useState(null);
+  const [colorfilter, setColorfilter] = useState(null);
+  const [sizesfilter, setSizesfilter] = useState(null);
+  const [priceMinfilter, setpriceMinfilter] = useState(null);
+  const [priceMaxfilter, setpriceMaxfilter] = useState(null);
 
-  const getProductPanigations = async ({ page, limit }) => {
-    const products = await dispatch(getProductPanigates({ page, limit }));
+  // const getProductPanigations = async ({ page, limit }) => {
+  //   const products = await dispatch(getProductPanigates({ page, limit }));
+  //   if (products) {
+  //     setTotalPage(products.payload.numberOfPages);
+  //     const product = products.payload.productData;
+  //     setProductData(product);
+  //   }
+  // };
+
+  const filter = async ({
+    page,
+    limit,
+    category,
+    colors,
+    sizes,
+    priceMin,
+    priceMax,
+  }) => {
+    const products = await dispatch(
+      filterProduct({
+        page,
+        limit,
+        category,
+        colors,
+        sizes,
+        priceMin,
+        priceMax,
+      })
+    );
     if (products) {
       setTotalPage(products.payload.numberOfPages);
       const product = products.payload.productData;
@@ -33,13 +70,33 @@ const Shop = () => {
     }
   };
 
+  // useEffect(() => {
+  //   getProductPanigations({ page: page, limit: limit });
+  // }, [page, limit]);
+
   useEffect(() => {
-    getProductPanigations({ page: 1, limit: 12 });
     getProductCategories();
-  }, []);
+    filter({
+      page: page,
+      limit: limit,
+      category: categoryfilter,
+      colors: colorfilter,
+      sizes: sizesfilter,
+      priceMin: priceMinfilter,
+      priceMax: priceMaxfilter,
+    });
+  }, [
+    page,
+    limit,
+    categoryfilter,
+    colorfilter,
+    sizesfilter,
+    priceMinfilter,
+    priceMaxfilter,
+  ]);
 
   const handlePageClick = (event) => {
-    getProductPanigations(Number(event.selected) + 1);
+    setPage(event.selected + 1);
   };
 
   return (
@@ -50,7 +107,10 @@ const Shop = () => {
             <div className="title">
               <h4>Product Categories</h4>
               <div className="content">
-                <ProductCategories data={categoriesdata} />
+                <ProductCategories
+                  data={categoriesdata}
+                  setCategory={setCategoryfilter}
+                />
               </div>
             </div>
           </div>
@@ -74,7 +134,7 @@ const Shop = () => {
               <h4>Filter by Color</h4>
             </div>
             <div className="content">
-              <Colors />
+              <Colors setColorfilter={setColorfilter} />
             </div>
           </div>
           <div className="filter-size">
@@ -82,7 +142,7 @@ const Shop = () => {
               <h4>Filter by Size</h4>
             </div>
             <div className="content">
-              <Sizes />
+              <Sizes setSizesfilter={setSizesfilter} />
             </div>
           </div>
           <div className="product-status">

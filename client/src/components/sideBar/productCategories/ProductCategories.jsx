@@ -8,15 +8,11 @@ import {
 } from "react-router-dom";
 import CustomInput from "../../customInput/CustomInput";
 
-const ProductCategories = ({ data }) => {
-  const [selected, setSelected] = useState([]);
+const ProductCategories = ({ data, category, setCategory }) => {
   // const navigate = useNavigate();
   // const { category } = useParams();
   const handleSelect = (e) => {
-    const alreadyEl = selected.find((el) => el === e.target.value);
-    if (alreadyEl)
-      setSelected((prev) => prev.filter((el) => el !== e.target.value));
-    else setSelected((prev) => [...prev, e.target.value]);
+    setCategory(e.toUpperCase());
   };
   // useEffect(() => {
   //   navigate({
@@ -32,13 +28,12 @@ const ProductCategories = ({ data }) => {
         {data.map((item, index) => {
           return (
             <li key={index}>
-              <Link to={item.path}>
+              <Link to={item.path} onClick={() => handleSelect(item.title)}>
                 <CustomInput
                   type="checkbox"
                   name={item.title}
                   val={item.title}
                   id={item._id}
-                  oncl={handleSelect}
                 />
                 <span>{item.title}</span>
               </Link>
