@@ -1,7 +1,7 @@
 import React from "react";
 import "./wishList.scss";
-import CustomInput from "../../components/customInput/CustomInput";
-import { sosial } from "../../utils/data";
+import CustomInput from "../../../components/customInput/CustomInput";
+import { sosial } from "../../../utils/data";
 import { Link } from "react-router-dom";
 
 const WishList = () => {

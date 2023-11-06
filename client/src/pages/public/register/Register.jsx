@@ -1,11 +1,11 @@
 import React from "react";
-import CustomInput from "../../components/customInput/CustomInput";
+import CustomInput from "../../../components/customInput/CustomInput";
 import { Link } from "react-router-dom";
 import "./register.scss";
 import { useFormik } from "formik";
 import * as Yup from "yup";
 import { useDispatch } from "react-redux";
-import { register } from "../../features/user/userSlice";
+import { register } from "../../../features/user/userSlice";
 
 let userSchema = Yup.object({
   firstname: Yup.string().required("Firstname is not valid!"),

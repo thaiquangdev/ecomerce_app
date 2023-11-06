@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 import "./singleProduct.scss";
 import { Link, useLocation } from "react-router-dom";
-import CustomInput from "../../components/customInput/CustomInput";
-import ProductCard from "../../components/productCard/ProductCard";
+import CustomInput from "../../../components/customInput/CustomInput";
+import ProductCard from "../../../components/productCard/ProductCard";
 import { useDispatch, useSelector } from "react-redux";
-import { getProduct } from "../../features/product/productSlice";
+import { getProduct } from "../../../features/product/productSlice";
 
 const SingleProduct = () => {
   const [current, setCurrent] = useState("Description");

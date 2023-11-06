@@ -1,6 +1,6 @@
 import React from "react";
 import "./blog.scss";
-import BlogCard from "../../components/blogCard/BlogCard";
+import BlogCard from "../../../components/blogCard/BlogCard";
 import { Link } from "react-router-dom";
 
 const Blog = () => {

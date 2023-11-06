@@ -222,3 +222,113 @@ export const sosial = [
     title: <ion-icon name="mail"></ion-icon>,
   },
 ];
+
+export const adminSidebar = [
+  {
+    type: "single",
+    title: "Dashboard",
+    path: "/admin/",
+    icon: <ion-icon name="podium-outline"></ion-icon>,
+  },
+  {
+    type: "single",
+    title: "Manager users",
+    path: "/admin/users",
+    icon: <ion-icon name="person-circle-outline"></ion-icon>,
+  },
+  {
+    type: "single",
+    title: "Manager orders",
+    icon: <ion-icon name="cart-outline"></ion-icon>,
+  },
+  {
+    type: "parent",
+    title: "Manager products",
+    icon: <ion-icon name="extension-puzzle-outline"></ion-icon>,
+    submenu: [
+      {
+        title: "Create product",
+        path: "/admin/create-product",
+      },
+      {
+        title: "Product List",
+        path: "/admin/product-list",
+      },
+    ],
+  },
+  {
+    type: "parent",
+    title: "Manager products categories",
+    icon: <ion-icon name="extension-puzzle-outline"></ion-icon>,
+    submenu: [
+      {
+        title: "Create product category",
+        path: "/admin/create-product-category",
+      },
+      {
+        title: "Product category list",
+        path: "/admin/product-list-category",
+      },
+    ],
+  },
+  {
+    type: "parent",
+    title: "Manager colors",
+    icon: <ion-icon name="extension-puzzle-outline"></ion-icon>,
+    submenu: [
+      {
+        title: "Create color",
+        path: "/admin/create-color",
+      },
+      {
+        title: "Color list",
+        path: "/admin/color-list",
+      },
+    ],
+  },
+  {
+    type: "parent",
+    title: "Manager sizes",
+    icon: <ion-icon name="extension-puzzle-outline"></ion-icon>,
+    submenu: [
+      {
+        title: "Create size",
+        path: "/admin/create-size",
+      },
+      {
+        title: "Size list",
+        path: "/admin/size-list",
+      },
+    ],
+  },
+  {
+    type: "parent",
+    title: "Manager blogs",
+    icon: <ion-icon name="save-outline"></ion-icon>,
+    submenu: [
+      {
+        title: "Create blog",
+        path: "/admin/create-blog",
+      },
+      {
+        title: "Blog List",
+        path: "/admin/blog-list",
+      },
+    ],
+  },
+  {
+    type: "parent",
+    title: "Manager blogs categories",
+    icon: <ion-icon name="save-outline"></ion-icon>,
+    submenu: [
+      {
+        title: "Create blog cateogry",
+        path: "/admin/create-blog-category",
+      },
+      {
+        title: "Blog List",
+        path: "/admin/blog-category-list",
+      },
+    ],
+  },
+];

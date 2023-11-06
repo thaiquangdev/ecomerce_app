@@ -1,6 +1,6 @@
 import React from "react";
 import "./contact.scss";
-import CustomInput from "../../components/customInput/CustomInput";
+import CustomInput from "../../../components/customInput/CustomInput";
 import { Link } from "react-router-dom";
 
 const Contact = () => {

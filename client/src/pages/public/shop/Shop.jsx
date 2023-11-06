@@ -1,18 +1,18 @@
 import React, { useEffect, useState } from "react";
 import "./shop.scss";
 import { Link } from "react-router-dom";
-import CustomInput from "../../components/customInput/CustomInput";
-import ProductCard from "../../components/productCard/ProductCard";
+import CustomInput from "../../../components/customInput/CustomInput";
+import ProductCard from "../../../components/productCard/ProductCard";
 import {
   filterProduct,
   getProductPanigates,
-} from "../../features/product/productSlice";
+} from "../../../features/product/productSlice";
 import { useDispatch } from "react-redux";
 import ReactPaginate from "react-paginate";
-import { getProdCates } from "../../features/productCategories/prodCateSlice";
-import ProductCategories from "../../components/sideBar/productCategories/ProductCategories";
-import Colors from "../../components/sideBar/colors/Colors";
-import Sizes from "../../components/sideBar/sizes/Sizes";
+import { getProdCates } from "../../../features/productCategories/prodCateSlice";
+import ProductCategories from "../../../components/sideBar/productCategories/ProductCategories";
+import Colors from "../../../components/sideBar/colors/Colors";
+import Sizes from "../../../components/sideBar/sizes/Sizes";
 
 const Shop = () => {
   const dispatch = useDispatch();

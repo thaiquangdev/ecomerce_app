@@ -1,11 +1,11 @@
 import React, { useEffect } from "react";
-import CustomInput from "../../components/customInput/CustomInput";
+import CustomInput from "../../../components/customInput/CustomInput";
 import { Link, useNavigate } from "react-router-dom";
 import "./login.scss";
 import { useFormik } from "formik";
 import * as Yup from "yup";
 import { useDispatch, useSelector } from "react-redux";
-import { login } from "../../features/user/userSlice";
+import { login } from "../../../features/user/userSlice";
 
 let userSchema = Yup.object({
   email: Yup.string().nullable().email().required("Email is not valid!"),

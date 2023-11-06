@@ -1,15 +1,15 @@
 import React, { useState, useEffect } from "react";
-import SiderBar from "../../components/sideBar/SiderBar";
-import Banner from "../../components/banner/Banner";
+import SiderBar from "../../../components/sideBar/SiderBar";
+import Banner from "../../../components/banner/Banner";
 import "./home.scss";
-import Widget from "../../components/widget/Widget";
-import BestSeller from "../../components/bestSeller/BestSeller";
-import FeaturedProduct from "../../components/featuredProduct/FeaturedProduct";
-import BuyersReviews from "../../components/buyersReviews/BuyersReviews";
-import LaterNews from "../../components/laterNews/LaterNews";
-import { getProducts } from "../../features/product/productSlice";
+import Widget from "../../../components/widget/Widget";
+import BestSeller from "../../../components/bestSeller/BestSeller";
+import FeaturedProduct from "../../../components/featuredProduct/FeaturedProduct";
+import BuyersReviews from "../../../components/buyersReviews/BuyersReviews";
+import LaterNews from "../../../components/laterNews/LaterNews";
+import { getProducts } from "../../../features/product/productSlice";
 import { useDispatch } from "react-redux";
-import LastDeals from "../../components/lastDeals/LastDeals";
+import LastDeals from "../../../components/lastDeals/LastDeals";
 const Home = () => {
   const dispatch = useDispatch();
   const [bestSeller, setBestSeller] = useState([]);

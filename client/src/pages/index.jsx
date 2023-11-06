@@ -1,0 +1,20 @@
+export { default as Blog } from "./public/blog/Blog";
+export { default as Cart } from "./public/cart/Cart";
+export { default as Contact } from "./public/contact/Contact";
+export { default as Home } from "./public/home/Home";
+export { default as Login } from "./public/login/Login";
+export { default as Register } from "./public/register/Register";
+export { default as Shop } from "./public/shop/Shop";
+export { default as SingleProduct } from "./public/singleProduct/SingleProduct";
+export { default as WishList } from "./public/wishList/WishList";
+
+export { default as AdminLayout } from "./admin/adminLayout/AdminLayout";
+export { default as Dashboard } from "./admin/dashboard/Dashboard";
+export { default as CreateProduct } from "./admin/createProduct/CreateProduct";
+export { default as ProductList } from "./admin/productList/ProductList";
+export { default as ProductCategoryList } from "./admin/productCategoryList/ProductCategoryList";
+export { default as ColorList } from "./admin/colorList/ColorList";
+export { default as SizeList } from "./admin/sizeList/SizeList";
+export { default as BlogList } from "./admin/blogList/BlogList";
+export { default as BlogCategoryList } from "./admin/blogCategoryList/BlogCategoryList";
+export { default as CreateBlog } from "./admin/createBlog/CreateBlog";
