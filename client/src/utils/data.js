@@ -239,6 +239,13 @@ export const adminSidebar = [
   {
     type: "single",
     title: "Manager orders",
+    path: "/admin/orders",
+    icon: <ion-icon name="cart-outline"></ion-icon>,
+  },
+  {
+    type: "single",
+    title: "Enquiries",
+    path: "/admin/enquiries",
     icon: <ion-icon name="cart-outline"></ion-icon>,
   },
   {

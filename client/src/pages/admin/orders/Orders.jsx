@@ -1,6 +1,6 @@
 import React from "react";
 import { Button, Table } from "antd";
-import "./colorList.scss";
+import "./orders.scss";
 
 const columns = [
   {
@@ -27,9 +27,9 @@ for (let i = 0; i < 46; i++) {
   });
 }
 
-const ColorList = () => {
+const Orders = () => {
   return (
-    <div className="color-list">
+    <div className="orders">
       <div className="header">
         <h1>Product List</h1>
       </div>
@@ -40,4 +40,4 @@ const ColorList = () => {
   );
 };
 
-export default ColorList;
+export default Orders;
