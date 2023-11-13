@@ -4,16 +4,20 @@ import "./blogList.scss";
 
 const columns = [
   {
+    title: "SNo",
+    dataIndex: "key",
+  },
+  {
     title: "Title",
     dataIndex: "title",
   },
   {
-    title: "Age",
-    dataIndex: "age",
+    title: "Category",
+    dataIndex: "category",
   },
   {
-    title: "Address",
-    dataIndex: "address",
+    title: "Action",
+    dataIndex: "action",
   },
 ];
 

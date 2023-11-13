@@ -5,7 +5,7 @@ import "./login.scss";
 import { useFormik } from "formik";
 import * as Yup from "yup";
 import { useDispatch, useSelector } from "react-redux";
-import { login } from "../../../features/user/userSlice";
+import { login } from "../../../features/auth/authSlice";
 
 let userSchema = Yup.object({
   email: Yup.string().nullable().email().required("Email is not valid!"),
@@ -29,7 +29,11 @@ const Login = () => {
   const { userData } = useSelector((state) => state.auth.user);
   useEffect(() => {
     if (userData) {
-      navigate("/");
+      if (userData?.role !== "admin") {
+        navigate("/");
+      } else {
+        navigate("/admin");
+      }
     }
   }, [userData]);
 

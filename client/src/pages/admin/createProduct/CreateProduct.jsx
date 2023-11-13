@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import { CustomInput } from "../../../components";
 import "./createProduct.scss";
+import ReactQuill from "react-quill";
+import "react-quill/dist/quill.snow.css";
 
 import { InboxOutlined } from "@ant-design/icons";
 import { message, Upload } from "antd";
@@ -26,6 +28,7 @@ const props = {
 };
 
 const CreateProduct = () => {
+  const [value, setValue] = useState("");
   return (
     <div className="create-product">
       <div className="header">
@@ -38,6 +41,9 @@ const CreateProduct = () => {
             placehoder="Enter product title"
             classN="text-title"
           />
+          <div>
+            <ReactQuill theme="snow" value={value} onChange={setValue} />
+          </div>
           <CustomInput
             type="number"
             placehoder="Enter product price"

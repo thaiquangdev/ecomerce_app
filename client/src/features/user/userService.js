@@ -1,24 +1,20 @@
 import axios from "axios";
 import { base_url } from "../../utils/url_server";
 
-const register = async (data) => {
-  const rs = await axios.post(`${base_url}user/register`, data);
+const getUsers = async () => {
+  const token = localStorage.getItem("token");
+  const rs = await axios.get(`${base_url}user`, {
+    headers: {
+      Authorization: `Bearer ${JSON.parse(token)}`,
+    },
+  });
   if (rs.data) {
-    return rs.data;
-  }
-};
-
-const login = async (data) => {
-  const rs = await axios.post(`${base_url}user/login`, data);
-  if (rs.data) {
-    localStorage.setItem("token", JSON.stringify(rs.data.accessToken));
     return rs.data;
   }
 };
 
 const userService = {
-  register,
-  login,
+  getUsers,
 };
 
 export default userService;

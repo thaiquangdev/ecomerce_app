@@ -45,8 +45,8 @@ const login = asyncHandler(async (req, res) => {
 
     const user = await User.findOne({ email });
     if (user && user.isCorrectPassword(password)) {
-      const { password, role, refreshToken, ...userData } = user.toObject();
-      const accessToken = generalAccessToken(user._id, role);
+      const { password, refreshToken, ...userData } = user.toObject();
+      const accessToken = generalAccessToken(user._id, user.role);
       const newRefreshToken = generalRefreshToken(user._id);
       await User.findByIdAndUpdate(
         user._id,

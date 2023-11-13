@@ -19,6 +19,7 @@ import {
   Enquiries,
   Home,
   Login,
+  LoginAdmin,
   Orders,
   ProductCategoryList,
   ProductList,
@@ -45,6 +46,7 @@ function App() {
         <Route path="/admin" element={<AdminLayout />}>
           <Route index element={<Dashboard />} />
           <Route path="/admin/users" element={<Customers />} />
+
           <Route path="/admin/create-product" element={<CreateProduct />} />
           <Route path="/admin/product-list" element={<ProductList />} />
           <Route
